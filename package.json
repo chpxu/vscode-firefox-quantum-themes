@@ -13,7 +13,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Firefox Quantum Themes",
+                "label": "Quantum Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Quantum Dark.json"
             }

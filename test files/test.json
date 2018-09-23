@@ -1,0 +1,20 @@
+{
+  "true": true,
+  "false": false,
+  "num": 10,
+  "decimal": 10.36784,
+  "string": "Dgrgr",
+  "array": ["hello", 10, "idk", 184.485, true],
+  "obj": {
+    "item1": "tjoltj"
+  },
+  "xd": {
+    "name": "Punctuation",
+    "scope": [
+      "punctuation"
+    ],
+    "settings": {
+      "foreground": "#b6babf"
+    }
+  },
+}
