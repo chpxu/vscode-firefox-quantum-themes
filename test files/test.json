@@ -17,4 +17,13 @@
       "foreground": "#b6babf"
     }
   },
+  "xff": {
+    "name": "Markdown - Plain",
+    "scope": [
+      "punctuation.definition.list_item.markdown"
+    ],
+    "settings": {
+      "foreground": "#b6babf"
+    }
+  },
 }

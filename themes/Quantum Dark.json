@@ -5,17 +5,21 @@
     "activityBarBadge.background": "#252c33",
     "activityBar.background": "#14171a",
     "badge.background": "#252c33",
-    "button.background": "#181d20",
-    "button.hoverBackground": "#252c33",
+    "button.background": "#252c33",
+    "button.hoverBackground": "#1d4f73",
     "dropdown.background": "#14171a",
   
     "editor.background": "#181d20",
     "editor.foreground": "#b6babf",
     "editor.lineHighlightBackground": "#40444d",
     "editor.selectionBackground": "#1d4f73",
+    "editor.wordHighlgihtBorder": "#252c33",
+    "editorBracketMatch.border": "#70bf53",
+    "editorCursor.foreground": "#b6babf",
     "editorGroupHeader.tabsBackground": "#14171a",
     "editorIndentGuide.background": "#252c33",
     "editorIndentGuide.activeBackground": "#252c33aa",
+    "editorWidget.background": "#181d20",
     "focusBorder": "#252c33",
     "input.background": "#14171a",
     "list.hoverBackground": "#181d20",
@@ -54,7 +58,7 @@
     },
     {
       "name": "Boolean",
-      "scope": ["constant.language.boolean"],
+      "scope": ["constant.language.boolean", "constant.language.json"],
       "settings": {
         "foreground": "#df80ff"
       }
@@ -150,9 +154,18 @@
       }
     },
     {
+      "name": "Interpolation",
+      "scope": [
+        "punctuation.definition.template-expression", 
+        "punctuation.definition.interpolation"
+      ],
+      "settings": {
+        "foreground": "#eb5368"
+      }
+    },
+    {
       "name": "Number, Constant, Tag Attribute, Embedded",
       "scope": [
-        "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
@@ -195,7 +208,7 @@
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#8fa1b2"
+        "foreground": "#b6babf"
       }
     },
     {
@@ -229,10 +242,20 @@
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name"
+        "source.postcss support.type.property-name",
+
       ],
       "settings": {
         "foreground": "#70bf53"
+      }
+    },
+    {
+      "name": "CSS Vendors",
+      "scope": [
+        "support.type.vendored.property-name"
+      ],
+      "settings": {
+        "foreground": "#df80ff"
       }
     },
     {
@@ -245,7 +268,7 @@
         "variable.sass"
       ],
       "settings": {
-        "foreground": "#eb5368"
+        "foreground": "#d96629"
       }
     },
     {
@@ -344,8 +367,7 @@
       "name": "Language methods",
       "scope": ["variable.language"],
       "settings": {
-        "fontStyle": "italic",
-        "foreground": "#FF5370"
+        "foreground": "#df80ff"
       }
     },
     {
@@ -456,22 +478,13 @@
       }
     },
     {
-      "name": "JSON Key",
+      "name": "Object Key",
       "scope": [
-        "support.type.property-name.json"
+        "support.type.property-name.json",
+        "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#46afe3"
-      }
-    },
-    {
-      "name": "Markdown - Plain",
-      "scope": [
-        "text.html.markdown",
-        "punctuation.definition.list_item.markdown"
-      ],
-      "settings": {
-        "foreground": "#b6babf"
+        "foreground": "#70bf53"
       }
     },
     {
@@ -502,7 +515,10 @@
       "scope": [
         "markup.heading.markdown punctuation.definition.heading.markdown",
         "beginning.punctuation.definition.list.markdown",
-        "beginning.punctuation.definition.quote.markdown"
+        "beginning.punctuation.definition.quote.markdown",
+        "punctuation.definition.metadata.markdown",
+        "punctuation.definition.list.begin.markdown",
+        "punctuation.definition.string.markdown"
       ],
       "settings": {
         "foreground": "#46afe3"
@@ -544,7 +560,7 @@
       "scope": ["markup.underline"],
       "settings": {
         "fontStyle": "underline",
-        "foreground": "#F78C6C"
+        "foreground": "#eb5368"
       }
     },
     {
@@ -552,15 +568,7 @@
       "scope": ["markup.strike"],
       "settings": {
         "fontStyle": "strike",
-        "foreground": ""
-      }
-    },
-    {
-      "name": "Markdown - Blockquote",
-      "scope": ["markup.quote punctuation.definition.blockquote.markdown"],
-      "settings": {
-        "background": "#65737E",
-        "foreground": "#65737E"
+        "foreground": "#eb5368"
       }
     },
     {
@@ -568,35 +576,29 @@
       "scope": ["markup.quote"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": ""
+        "foreground": "#5c6773"
       }
     },
     {
       "name": "Markdown - Link",
-      "scope": ["string.other.link.title.markdown"],
+      "scope": ["string.other.link.title.markdown", "string.other.link.description.title.markdown"],
       "settings": {
-        "foreground": "#82AAFF"
-      }
-    },
-    {
-      "name": "Markdown - Link Description",
-      "scope": ["string.other.link.description.title.markdown"],
-      "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#eb5368"
       }
     },
     {
       "name": "Markdown - Link Anchor",
       "scope": ["constant.other.reference.link.markdown"],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#eb5368"
       }
     },
     {
-      "name": "Markup - Raw Block",
-      "scope": ["markup.raw.block"],
+      "name": "Markup - Raw Strings",
+      "scope": ["markup.raw.block","markup.inline.raw.string.markdown",
+      "markup.fenced_code.block.markdown"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#d99b28"
       }
     },
     {
@@ -604,31 +606,6 @@
       "scope": ["markup.raw.block.fenced.markdown"],
       "settings": {
         "foreground": "#00000050"
-      }
-    },
-    {
-      "name": "Markdown - Fenced Bode Block",
-      "scope": ["punctuation.definition.fenced.markdown"],
-      "settings": {
-        "foreground": "#00000050"
-      }
-    },
-    {
-      "name": "Markdown - Fenced Bode Block Variable",
-      "scope": [
-        "markup.raw.block.fenced.markdown",
-        "variable.language.fenced.markdown",
-        "punctuation.section.class.end"
-      ],
-      "settings": {
-        "foreground": "#EEFFFF"
-      }
-    },
-    {
-      "name": "Markdown - Fenced Language",
-      "scope": ["variable.language.fenced.markdown"],
-      "settings": {
-        "foreground": "#65737E"
       }
     },
     {

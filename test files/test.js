@@ -21,3 +21,10 @@ let z = {
   sh: 10
 };
 z.lol;
+const lol = "xd";
+class Lol {
+  indeed() {
+    return true;
+  }
+}
+let inter = `${z} xD`;
