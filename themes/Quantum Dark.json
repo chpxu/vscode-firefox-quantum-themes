@@ -8,7 +8,7 @@
     "button.background": "#252c33",
     "button.hoverBackground": "#1d4f73",
     "dropdown.background": "#14171a",
-  
+
     "editor.background": "#181d20",
     "editor.foreground": "#b6babf",
     "editor.lineHighlightBackground": "#40444d",
@@ -74,12 +74,17 @@
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#d99b28"
+        "foreground": "#6b7abb"
       }
     },
     {
       "name": "Variables",
-      "scope": ["variable", "variable.other.readwrite", "support.variable", "variable.parameter"],
+      "scope": [
+        "variable",
+        "variable.other",
+        "support.variable",
+        "variable.parameter"
+      ],
       "settings": {
         "foreground": "#46afe3"
       }
@@ -95,7 +100,7 @@
       "name": "Invalid",
       "scope": ["invalid", "invalid.illegal"],
       "settings": {
-        "foreground": "#b28025"
+        "foreground": "#d96629"
       }
     },
     {
@@ -140,13 +145,6 @@
       }
     },
     {
-      "name": "Block Level Variables",
-      "scope": ["meta.block variable.other"],
-      "settings": {
-        "foreground": "#f07178"
-      }
-    },
-    {
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
@@ -156,7 +154,7 @@
     {
       "name": "Interpolation",
       "scope": [
-        "punctuation.definition.template-expression", 
+        "punctuation.definition.template-expression",
         "punctuation.definition.interpolation"
       ],
       "settings": {
@@ -202,13 +200,18 @@
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
-
-        "keyword.operator"
+        "punctuation.section.embedded"
       ],
       "settings": {
         "fontStyle": "normal",
         "foreground": "#b6babf"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#5e88b0"
       }
     },
     {
@@ -217,7 +220,7 @@
         "entity.name",
         "support.type",
         "support.class",
-        "support.orther.namespace.use.php",
+        "support.other.namespace.use.php",
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
@@ -242,8 +245,7 @@
         "source.scss support.type.property-name",
         "source.less support.type.property-name",
         "source.stylus support.type.property-name",
-        "source.postcss support.type.property-name",
-
+        "source.postcss support.type.property-name"
       ],
       "settings": {
         "foreground": "#70bf53"
@@ -251,9 +253,7 @@
     },
     {
       "name": "CSS Vendors",
-      "scope": [
-        "support.type.vendored.property-name"
-      ],
+      "scope": ["support.type.vendored.property-name"],
       "settings": {
         "foreground": "#df80ff"
       }
@@ -280,7 +280,6 @@
         "source.less support.constant",
         "source.stylus support.constant",
         "source.postcss support.constant",
-        "constant.numeric.css",
         "keyword.other.unit"
       ],
       "settings": {
@@ -314,9 +313,7 @@
     },
     {
       "name": "CSS ID",
-      "scope": [
-        "entity.other.attribute-name.id.css"
-      ],
+      "scope": ["entity.other.attribute-name.id.css"],
       "settings": {
         "foreground": "#df80ff"
       }
@@ -479,9 +476,10 @@
     },
     {
       "name": "Object Key",
-      "scope": [
-        "support.type.property-name.json",
-        "meta.object-literal.key"
+      "scope": ["support.type.property-name.json", 
+        "meta.object-literal.key", 
+        "variable.other.property",
+        "support.variable.property"
       ],
       "settings": {
         "foreground": "#70bf53"
@@ -581,7 +579,10 @@
     },
     {
       "name": "Markdown - Link",
-      "scope": ["string.other.link.title.markdown", "string.other.link.description.title.markdown"],
+      "scope": [
+        "string.other.link.title.markdown",
+        "string.other.link.description.title.markdown"
+      ],
       "settings": {
         "foreground": "#eb5368"
       }
@@ -595,8 +596,11 @@
     },
     {
       "name": "Markup - Raw Strings",
-      "scope": ["markup.raw.block","markup.inline.raw.string.markdown",
-      "markup.fenced_code.block.markdown"],
+      "scope": [
+        "markup.raw.block",
+        "markup.inline.raw.string.markdown",
+        "markup.fenced_code.block.markdown"
+      ],
       "settings": {
         "foreground": "#d99b28"
       }

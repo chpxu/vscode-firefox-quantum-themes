@@ -28,3 +28,6 @@ class Lol {
   }
 }
 let inter = `${z} xD`;
+
+Lol.indeed()
+
