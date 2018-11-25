@@ -2,12 +2,15 @@
 
 This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information.
 
-<<<<<<< HEAD
 ## Screenshots
 
 Please note: I work on this in my spare time, and I balance this among other projects too. Please don't be so hasty. These screenshots are not representative of the final product.
 
 BATCH:
+![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/bat.png)
+
+C:
+![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/c.png)
 
 ## Theme Colours
 
