@@ -83,10 +83,11 @@
         "variable",
         "variable.other",
         "support.variable",
-        "variable.parameter"
+        "variable.parameter",
+        "meta.symbol"
       ],
       "settings": {
-        "foreground": "#46afe3"
+        "foreground": "#eb5368"
       }
     },
     {
@@ -105,7 +106,7 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": ["keyword", "storage.type", "storage.modifier", "storage.control"],
       "settings": {
         "foreground": "#df80ff"
       }
@@ -158,7 +159,7 @@
         "punctuation.definition.interpolation"
       ],
       "settings": {
-        "foreground": "#eb5368"
+        "foreground": "#d96629"
       }
     },
     {
@@ -183,6 +184,7 @@
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
+        "entity.global.clojure",
         "markup.heading",
         "markup.inserted.git_gutter",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
@@ -479,10 +481,11 @@
       "scope": ["support.type.property-name.json", 
         "meta.object-literal.key", 
         "variable.other.property",
-        "support.variable.property"
+        "support.variable.property",
+        "support.constant.media"
       ],
       "settings": {
-        "foreground": "#70bf53"
+        "foreground": "#eb5368"
       }
     },
     {

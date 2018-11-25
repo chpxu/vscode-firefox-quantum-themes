@@ -1,7 +1,7 @@
 {
     "name": "firefox-quantum-themes",
     "displayName": "Firefox Quantum Themes",
-    "description": "Themes for VSCode, based off Firefox Quantum DevTools",
+    "description": "Themes for VSCode, based off Firefox Quantum DevTools.",
     "version": "0.0.1",
     "publisher": "Progracientist",
     "engines": {

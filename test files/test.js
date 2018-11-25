@@ -1,10 +1,5 @@
-// function toggleNav(currState) {
-//   if (currState === "open") {
-//     document.getElementById("dropdown").style.width = "0";
-//   } else if (currState === "close") {
-//     document.getElementById("dropdown").style.width = "250px";
-//   }
-// }
+// Comment
+
 function openNav() {
   document.getElementById("mySidenav").style.height = "50vh";
   document.getElementById("main").style.opacity = "0.9";

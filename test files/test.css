@@ -1,5 +1,43 @@
-@media (min-width: 768px) {
-  body {
-    font-size: 20px;
-  }
+@import url("https://fonts.googleapis.com/css?family=Mina|Montserrat|Raleway|Mina");
+@import "./Extras/misc";
+@import "./dropdown";
+@import "./inputs";
+
+@media screen and (max-width: 960px) {
+
+}
+
+html,
+body[data-en-theme] {
+  margin: 0;
+  padding: 0;
+  -moz-backface-visibility: hidden;
+}
+
+nav[data-en-class="navbar"] {
+  background-color: white;
+  color: black;
+  font-family: 10px;
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  padding: 16px;
+  box-shadow: 0 2px 5px black;
+  z-index: 9999999;
+  position: relative;
+}
+nav ul {
+  display: flex;
+  align-content: flex-start;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  font-family: $HeadingFont;
+  -moz-backface-visibility: hidden;
 }

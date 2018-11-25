@@ -2,15 +2,39 @@
 
 This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information.
 
+I would also like to emphasize that this is NOT an exact replica, as the DevTools and Scratchpad are so inconsistently coloured, and they are sometimes hard to differentiate in terms of colour. I would like to say that I have attempted to stick to the original styling but swapped around a few colours for readability.
+
+Currently, only the Dark Theme is available.
+
 ## Screenshots
 
 Please note: I work on this in my spare time, and I balance this among other projects too. Please don't be so hasty. These screenshots are not representative of the final product.
 
-BATCH:
+Batch
 ![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/bat.png)
 
-C:
+C
 ![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/c.png)
+
+C++
+![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/cpp.png)
+
+Clojure
+![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/clojure.png)
+
+CSS
+![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/css.png)
+
+HTML
+![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/html.png)
+
+## CHANGELOG
+
+I as a person always like to maintain 2 separate changelogs, one for original releases and one for preview/beta releases
+
+Full Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+
+BETA Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG%20B.md)
 
 ## Theme Colours
 

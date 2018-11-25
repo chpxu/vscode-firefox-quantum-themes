@@ -2,8 +2,15 @@
 
 Beta changelogs document every beta build which is published to GitHub. They are reset after every minor/major update (ie say you have version x.y.z, will reset ONLY when y or x change)
 
+## Beta 2
 
-rghr
+- Change some syntax highlighting:
+  - Variables and Object Keys are now red.
+  - Interpolation
+- Improved Clojure highlighting
+- Improve CSS/SCSS Highlighting
+  - Media Constants
+- Add some more screenshots and docs to `README.md`
 
 ## Beta 1
 
