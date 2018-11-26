@@ -21,8 +21,16 @@ math =
 race = (winner, runners...) ->
   print winner, runners
 
+# Interpolation
+fill = (container, liquid = "coffee") ->
+  "Filling the #{container} with #{liquid}..."
+
+
 # Existence:
 alert "I knew it!" if elvis?
+
+# Conditionals
+number = -42 if opposite
 
 # Array comprehensions:
 cubes = (math.cube num for num in list)
@@ -37,3 +45,5 @@ author = "Wittgenstein"
 quote  = "A picture is a fact. -- #{ author }"
 
 sentence = "#{ 22 / 7 } is a decent approximation of π"
+
+

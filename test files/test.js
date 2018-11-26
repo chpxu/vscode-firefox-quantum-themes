@@ -6,23 +6,17 @@ function openNav() {
 }
 let t = ["xd", "xd"];
 t.forEach(element => console.log(t[element]));
-let x = 10;
-function closeNav() {
-  document.getElementById("mySidenav").style.height = "0";
-  document.getElementById("main").style.opacity = "1";
-}
-let z = {
-  lol: "xd",
-  sh: 10
-};
-z.lol;
-const lol = "xd";
-class Lol {
-  indeed() {
-    return true;
-  }
-}
-let inter = `${z} xD`;
 
-Lol.indeed()
+let z = {
+  test1: "test1",
+  testnum: 10
+};
+z.test1;
+const lol = "xd";
+let interpolation = `${z} xD`;
+
+
+
+
+
 

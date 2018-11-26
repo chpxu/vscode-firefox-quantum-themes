@@ -22,11 +22,23 @@ C++
 Clojure
 ![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/clojure.png)
 
+CoffeeScript
+![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/coffee.png)
+
 CSS
 ![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/css.png)
 
 HTML
 ![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/html.png)
+
+JavaScript
+![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/js.png)
+
+JSON
+![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/json.png)
+
+Markdown
+![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/md.png)
 
 ## CHANGELOG
 
@@ -40,6 +52,16 @@ BETA Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-fir
 
 For the colours used, please refer to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors)
 
+## Contribution
+
+I currently work on this theme in my spare time. As of writing, it currently isn't available on the Marketplace, but you may use it by first cloning the repo and sticking it in the `~/.vscode/extensions` folder
+
+That allows you to see and use directly. If editing and wanting to submit a pull request, please ensure that as much sufficient detail is provided, and briefly state your changes and why, or if meant to fix an issue, reference the problem alongside it.
+
 ## Thank You's!
 
 This theme was heavily inspired by Firefox DevTools, as well as the [One Dark Pro Port](https://github.com/Binaryify/OneDark-Pro) and VSCode itself! Thanks to them all for the ideas :)
+
+And the following:
+
+@compilenix - First person to show interest and BETA TESTER
