@@ -17,6 +17,12 @@ let interpolation = `${z} xD`;
 
 
 
+class Test {
+  greet() {
+    return "hi";
+  }
+}
 
+Test.greet()
 
 

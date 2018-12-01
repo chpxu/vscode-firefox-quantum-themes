@@ -30,6 +30,9 @@ nav ul {
   display: flex;
   align-content: flex-start;
 }
+nav ul li:hover {
+  background-color: gray;
+}
 h1,
 h2,
 h3,

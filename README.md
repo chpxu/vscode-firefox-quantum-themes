@@ -64,4 +64,5 @@ This theme was heavily inspired by Firefox DevTools, as well as the [One Dark Pr
 
 And the following:
 
-@compilenix - First person to show interest and BETA TESTER
+[**@compilenix**](https://github.com/compilenix) - First person to show interest and BETA TESTER
+- All of you who have even just glanced!
