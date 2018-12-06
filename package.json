@@ -16,6 +16,11 @@
                 "label": "Quantum Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Quantum Dark.json"
+            },
+            {
+                "label": "Quantum Light",
+                "uiTheme": "vs",
+                "path": "./themes/Quantum Light.json"
             }
         ]
     }
