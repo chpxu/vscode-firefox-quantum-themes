@@ -2,6 +2,28 @@
 
 Beta changelogs document every beta build which is published to GitHub. They are reset after every minor/major update (ie say you have version x.y.z, will reset ONLY when y or x change)
 
+## Beta-1.0.0-6
+
+### Features
+
+- Support for more languages (without extensions)
+- Updated README with brief list of colours
+- Screenshots moved to SCREENSHOTS.md, better screenshots will come eventually
+- Added Firefox Developer Edition Icon
+- Debug Widget Backgrounds exist!
+- Quantum Light:
+  - Fixed UI Issues.
+  - Adjusted syntax highlighting
+
+### Changes/Fixes
+
+- Reverted colour of titlebar back to darker grey, edited this to sidebar titles (not the header titles)
+- Fixed editor header being white (Quantum Light)
+- Changed colour of inputs to be better viewable (Both)
+- Fixed Markdown Link Names being lighter (both)
+
+Guess what? ONE STEP CLOSER TO OFFICIAL 1.0.0 :)
+
 ## Beta-1.0.0-5
 
 - Support for more languages (without extensions)

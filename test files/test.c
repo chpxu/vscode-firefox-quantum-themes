@@ -5,7 +5,7 @@
 
 int main(int argc, char *argc) {
   int x;
-  clrscr() ;
+  clrscr();
   printf("%d\n", argc);
   for (x = 0; x < argc; x++) {
     printf("%s\n", argv[x]);

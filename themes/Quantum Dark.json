@@ -7,6 +7,7 @@
     "badge.background": "#343c45",
     "button.background": "#343c45",
     "button.hoverBackground": "#1d4f73",
+    "debugToolBar.background": "#181d20",
     "dropdown.background": "#14171a",
     "editor.background": "#181d20",
     "editor.foreground": "#b6babf",
@@ -19,8 +20,8 @@
     "editorIndentGuide.background": "#252c33",
     "editorIndentGuide.activeBackground": "#252c33aa",
     "editorWidget.background": "#181d20",
-    "focusBorder": "#252c33",
-    "input.background": "#14171a",
+    "focusBorder": "#343c45",
+    "input.background": "#252c33",
     "list.hoverBackground": "#252c33",
     "list.activeBackground": "#252c33",
     "list.activeSelectionBackground": "#252c33",
@@ -28,9 +29,10 @@
     "list.focusBackground": "#252c33",
     "panel.background": "#181d20",
     "scrollbarSlider.background": "#252c33aa",
-    "sideBarTitle.foreground": "#b6babf",
+    "sideBarTitle.foreground": "#8fa1b2",
     "sideBar.background": "#14171a",
     "sideBarSectionHeader.background": "#181d20",
+    "sidebarSectionHeader.foreground": "#8fa1b2",
     "statusBar.debuggingBackground": "#1d4f73",
     "statusBar.background": "#14171a",
     "statusBar.foreground": "#8fa1b2",
@@ -40,7 +42,7 @@
     "tab.border": "#14171a",
     "tab.activeModifiedBorder": "#6b7abb",
     "titleBar.activeBackground": "#14171a",
-    "titleBar.activeForeground": "#b6babf",
+    "titleBar.activeForeground": "#8fa1b2",
     "titleBar.inactiveBackground": "#181d20",
     "terminal.ansiBlack": "#14171a",
     "terminal.ansiBlue": "#46afe3",
@@ -168,7 +170,7 @@
       "name": "Other Variable, String Link",
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#eb5368"
       }
     },
     {

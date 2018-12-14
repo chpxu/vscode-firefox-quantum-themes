@@ -15,14 +15,10 @@ z.test1;
 const lol = "xd";
 let interpolation = `${z} xD`;
 
-
-
 class Test {
   greet() {
     return "hi";
   }
 }
 
-Test.greet()
-
-
+Test.greet();
