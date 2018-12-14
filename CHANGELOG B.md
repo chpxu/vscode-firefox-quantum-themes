@@ -2,6 +2,10 @@
 
 Beta changelogs document every beta build which is published to GitHub. They are reset after every minor/major update (ie say you have version x.y.z, will reset ONLY when y or x change)
 
+## Beta-1.0.0-7
+
+- Status Bar debugging colours now red and text is white
+
 ## Beta-1.0.0-6
 
 ### Features
