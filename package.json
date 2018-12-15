@@ -3,7 +3,10 @@
     "displayName": "Firefox Quantum Themes",
     "description": "Themes for VSCode, based off Firefox Quantum DevTools.",
     "version": "1.0.0",
-    "publisher": "Progracientist",
+    "publisher": "beastdestroyer",
+    "repository": {
+        "url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes",
+    },
     "license": "MIT",
     "icon": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/icon.png",
     "keywords": [
