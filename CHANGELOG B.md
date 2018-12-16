@@ -11,7 +11,6 @@ Beta changelogs document every beta build which is published to GitHub, before r
 
 ## Beta-1.0.x-1
 
-
 - Pre-emptive build for new cycles of betas
 (RELEASED AS 1.0.2)
 ---
