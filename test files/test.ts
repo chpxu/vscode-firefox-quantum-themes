@@ -1,25 +1,9 @@
-let x :string = 10;
+let x :number = 10;
+interface Test {
+  colour1: number;
+  colour2: number;
+};
 
-export interface IPager<T> {
-  firstPage: T[];
-  total: number;
-  getPage(pageIndex: number): TPromise<T[]>;
+class ColourPicker implements Test {
+  
 }
-
-class Greeter implements GreeterInterface {
-  greeting: string;
-  constructor(message: string) {
-    this.greeting = message;
-  }
-  greet() {
-    return "Hello" + this.greeting;
-  }
-}
-
-describe("Greeter Class", {} => {
-  it("msg", {} => {
-    let expected = "world";
-    let greeting = new Greeter(greet);
-    expect(actual).eql(expected);
-  }) 
-})

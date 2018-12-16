@@ -4,7 +4,6 @@
 @import "./inputs";
 
 @media screen and (max-width: 960px) {
-
 }
 
 html,
@@ -30,7 +29,8 @@ nav ul {
   display: flex;
   align-content: flex-start;
 }
-nav ul li:hover {
+nav ul li:dir(rtl)
+, nav ul li:focus {
   background-color: gray;
 }
 h1,
@@ -41,6 +41,5 @@ h5,
 h6 {
   padding: 0;
   margin: 0;
-  font-family: $HeadingFont;
   -moz-backface-visibility: hidden;
 }

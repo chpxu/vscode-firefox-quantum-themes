@@ -1,6 +1,20 @@
 # Beta Changelog
 
-Beta changelogs document every beta build which is published to GitHub. They are reset after every minor/major update (ie say you have version x.y.z, will reset ONLY when y or x change)
+Beta changelogs document every beta build which is published to GitHub, before release.
+
+## Beta-1.0.x-2
+
+- Fixed types and pseudo classes being invisible in Quantum Light
+- Bracket matching now matches Firefox Quantum
+- Selection background is now more transparent for easier visibility (funnily enough, this transparency shows up in their editors for DevTools :P)
+- Numbers darker in Quantum Light
+
+## Beta-1.0.x-1
+
+
+- Pre-emptive build for new cycles of betas
+(RELEASED AS 1.0.2)
+---
 
 ## Beta-1.0.0-8
 

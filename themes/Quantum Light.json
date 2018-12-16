@@ -13,9 +13,9 @@
     "editor.background": "#fcfcfc",
     "editor.foreground": "#585959",
     "editor.lineHighlightBackground": "#f7f7f7",
-    "editor.selectionBackground": "#4c9ed9",
+    "editor.selectionBackground": "#4c9ed9aa",
     "editor.wordHighlightBorder": "#ebeced",
-    "editorBracketMatch.border": "#2cbb0f",
+    "editorBracketMatch.border": "#aaaaaa",
     "editorCursor.foreground": "#8fa1b2",
     "editorGroupHeader.tabsBackground": "#ebeced",
     "editorIndentGuide.background": "#ebeced",
@@ -86,7 +86,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#5b5fff"
+        "foreground": "#0072ab"
       }
     },
     {
@@ -263,7 +263,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#ffffb4"
+        "foreground": "#d97e00"
       }
     },
     {
@@ -340,7 +340,7 @@
         "entity.other.attribute-name.pseudo-element.css"
       ],
       "settings": {
-        "foreground": "#ffffb4"
+        "foreground": "#d97e00"
       }
     },
     {
