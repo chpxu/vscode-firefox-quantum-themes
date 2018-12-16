@@ -4,7 +4,7 @@ This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired b
 
 I would also like to emphasize that this is NOT an exact replica, as the DevTools and Scratchpad are so inconsistently coloured, and they are sometimes hard to differentiate in terms of colour. I would like to say that I have attempted to stick to the original styling but swapped around a few colours for readability.
 
-Currently, only the Dark Theme is available.
+Currently, both Dark Theme and Light Themes are available. Dark is mostly finished, most likely tweaks here and there. Light theme will be next focus - though it is quite well developed right now
 
 ## Screenshots
 
@@ -45,9 +45,9 @@ The table is in the format of <DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECIM
 
 ## Contribution
 
-I currently work on this theme in my spare time. As of writing, it currently isn't available on the Marketplace, but you may use it by first cloning the repo and sticking it in the `~/.vscode/extensions` folder
+I currently work on this theme in my spare time. As of writing, it is available in the Marketplace. As a new developer, I am still attempting to work things out, thanks!
 
-That allows you to see and use directly. If editing and wanting to submit a pull request, please ensure that as much sufficient detail is provided, and briefly state your changes and why, or if meant to fix an issue, reference the problem alongside it.
+If editing and wanting to submit a pull request, please ensure that as much sufficient detail is provided, and briefly state your changes and why, or if meant to fix an issue, reference the problem alongside it.
 
 ## Thank You's!
 
