@@ -9,7 +9,7 @@
         "url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes"
     },
     "license": "MIT",
-    "icon": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/icon.png",
+    "icon": "icon.png",
     "keywords": [
         "firefox",
         "devtools",
