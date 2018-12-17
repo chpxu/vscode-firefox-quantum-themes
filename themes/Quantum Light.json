@@ -26,8 +26,8 @@
     "list.hoverBackground": "#ebeced",
     "list.hoverForeground": "#585959",
     "list.activeBackground": "#ebeced",
-    "list.activeSelectionBackground": "#585959",
-    "list.activeSelectionForeground": "#ebeced",
+    "list.activeSelectionBackground": "#ebeced",
+    "list.activeSelectionForeground": "#585959",
     "list.inactiveSelectionBackground": "#ebeced",
     "list.focusBackground": "#ebeced",
     "panel.background": "#f7f7f7",
@@ -153,7 +153,9 @@
         "entity.name.tag",
         "meta.tag.sgml",
         "markup.deleted.git_gutter",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
       ],
       "settings": {
         "foreground": "#0088cc"
@@ -183,7 +185,8 @@
       "scope": [
         "punctuation.definition.template-expression",
         "punctuation.definition.interpolation",
-        "punctuation.section.embedded.coffee"
+        "punctuation.section.embedded.coffee",
+        "constant.other.bareword"
       ],
       "settings": {
         "foreground": "#f13c00"
@@ -253,7 +256,8 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "support.type.sys-types",
+        "constant.other.bareword"
       ],
       "settings": {
         "foreground": "#0088cc"
@@ -517,6 +521,13 @@
       ],
       "settings": {
         "foreground": "#ed2655"
+      }
+    },
+    {
+      "name": "[log] Exception Types",
+      "scope": ["log.exceptiontype"],
+      "settings": {
+        "foreground": "#2cbb0f"
       }
     },
     {

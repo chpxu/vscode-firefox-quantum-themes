@@ -2,6 +2,19 @@
 
 Beta changelogs document every beta build which is published to GitHub, before release.
 
+## Beta-1.0.x-3
+
+### Features:
+
+- Improved Language Support for:
+  - Perl/Perl6
+  - PHP
+  - Python
+  - PowerShell
+  - log
+
+- Select in Dropdowns now grey again! (Quantum Light)
+
 ## Beta-1.0.x-2
 
 - Fixed types and pseudo classes being invisible in Quantum Light
@@ -12,7 +25,9 @@ Beta changelogs document every beta build which is published to GitHub, before r
 ## Beta-1.0.x-1
 
 - Pre-emptive build for new cycles of betas
+
 (RELEASED AS 1.0.2)
+
 ---
 
 ## Beta-1.0.0-8

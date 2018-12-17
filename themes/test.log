@@ -1,0 +1,3 @@
+SEVERE: Session: FRMJKHTKJHT;
+java.io.WriteAbortedException: writing aborted;
+  at java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1534)
