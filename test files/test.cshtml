@@ -1,0 +1,19 @@
+@model IEnumerable<HelperSample.Models.Product>
+<h2>Test</h2>
+<ul>
+  @foreach (product in Model) {
+    <li>
+      <span class="producttitle">
+        @product.Name
+      </span>
+      <span class="price">
+        @if (product.price == 0) {
+          <span>Free</span>
+        } else {
+          @String.Format("{0:C2}", product.unitPrice)
+        }
+      </span>
+
+    </li>
+  }
+</ul>

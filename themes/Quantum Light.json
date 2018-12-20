@@ -54,7 +54,7 @@
     "terminal.ansiGreen": "#2cbb0f",
     "terminal.ansiRed": "#ed2655",
     "terminal.ansiWhite": "#585959",
-    "terminal.ansiYellow": "#ffffb4",
+    "terminal.ansiYellow": "#d97e00",
     "terminal.ansiBrightRed": "#f13c00"
   },
   "tokenColors": [
