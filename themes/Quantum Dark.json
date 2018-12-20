@@ -149,7 +149,9 @@
         "entity.name.tag",
         "meta.tag.sgml",
         "markup.deleted.git_gutter",
-        "entity.other.attribute-name.class"
+        "entity.other.attribute-name.class",
+        "punctuation.section.embedded.begin",
+        "punctuation.section.embedded.end"
       ],
       "settings": {
         "foreground": "#46afe3"
@@ -249,7 +251,8 @@
         "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
-        "support.type.sys-types"
+        "support.type.sys-types",
+        "constant.other.bareword"
       ],
       "settings": {
         "foreground": "#46afe3"
@@ -513,6 +516,13 @@
       ],
       "settings": {
         "foreground": "#eb5368"
+      }
+    },
+    {
+      "name": "[log] Exception Types",
+      "scope": ["log.exceptiontype"],
+      "settings": {
+        "foreground": "#70bf53"
       }
     },
     {

@@ -1,6 +1,28 @@
 # Beta Changelog
 
-Beta changelogs document every beta build which is published to GitHub, before release.
+Beta changelogs document every beta build which is published to GitHub, before release. Beta releases can be cloned from the `beta` branch, or else from the releases [here](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/releases) and look for the ones labelled `Pre-release` or 'Beta' in the title
+
+## Beta 1.0.x-4
+
+- Language improvements:
+  - R
+  - Razor (cshtml) \[there are a few glitches with highlighting, but it appears to be with VSCode itself not the theme after further investigation]
+
+- Theme title is not the same as name of extension [#25](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/25)
+- Yellow not visible in Quantum Light [#22](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/22)
+
+## Beta-1.0.x-3
+
+### Features:
+
+- Improved Language Support for:
+  - Perl/Perl6
+  - PHP
+  - Python
+  - PowerShell
+  - log
+
+- Select in Dropdowns now grey again! (Quantum Light)
 
 ## Beta-1.0.x-2
 
@@ -12,7 +34,9 @@ Beta changelogs document every beta build which is published to GitHub, before r
 ## Beta-1.0.x-1
 
 - Pre-emptive build for new cycles of betas
+
 (RELEASED AS 1.0.2)
+
 ---
 
 ## Beta-1.0.0-8
