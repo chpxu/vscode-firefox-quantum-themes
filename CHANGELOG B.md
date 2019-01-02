@@ -2,6 +2,16 @@
 
 Beta changelogs document every beta build which is published to GitHub, before release. Beta releases can be cloned from the `beta` branch, or else from the releases [here](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/releases) and look for the ones labelled `Pre-release` or 'Beta' in the title
 
+## Beta-1.1.x-1
+
+- Maintaining parity with Firefox DevTools [#28](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/28)
+  - Variable colours now blue instead of red
+  - Property colours now green
+  - Numbers and interpolation now a more vibrant blue
+  - Support types and CSS Pseudos now a lighter/darker grey for dark/light themes respectively
+
+---
+
 ## Beta 1.0.x-4
 
 - Language improvements:

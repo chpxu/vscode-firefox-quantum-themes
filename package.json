@@ -2,7 +2,7 @@
     "name": "firefox-quantum-themes",
     "displayName": "Firefox Quantum Themes",
     "description": "Themes for VSCode, based off Firefox Quantum DevTools.",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "publisher": "beastdestroyer",
     "repository": {
         "type": "git",
