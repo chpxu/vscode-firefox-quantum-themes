@@ -7,3 +7,5 @@ interface Test {
 class ColourPicker implements Test {
   
 }
+
+let inter = `${x} xd`
