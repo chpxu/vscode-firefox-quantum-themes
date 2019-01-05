@@ -12,7 +12,7 @@
     "editor.background": "#181d20",
     "editor.foreground": "#b6babf",
     "editor.lineHighlightBackground": "#14171a",
-    "editor.selectionBackground": "#1d4f73aa",
+    "editor.selectionBackground": "#1d4f7340",
     "editor.wordHighlightBorder": "#252c33",
     "editorBracketMatch.border": "#aaaaaa",
     "editorCursor.foreground": "#b6babf",
