@@ -46,7 +46,7 @@ clojure.core/+  ; Namespaced symbol
 user => 'x
 x
 
-user=> '(1 2 3)
+user => '(1 2 3)
 (1 2 3)
 user=> (+ 3 4)
 7

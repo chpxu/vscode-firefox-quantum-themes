@@ -1,6 +1,7 @@
 ## Screenshots:
 
-Please note: I work on this in my spare time, and I balance this among other projects too. Please don't be so hasty. These screenshots are not representative of the final product.
+Here are the latest screenshots of this theme. This is in the layout of `Dark` on the left and `Light` on the right
+Please note, the code presented here is 100% not mine, and was manually typed out from google images. If you recognise a piece of code which you do not want to be displayed, please let me know and I will edit the screenshot.
 
 ### Quantum Dark Theme
 
@@ -112,8 +113,3 @@ XSL
 YAML
 
 log
-
-
-### Quantum Light Theme
-
-WILL BE UPDATED WHEN QUANTUM LIGHT IS IN A GOOD STATE

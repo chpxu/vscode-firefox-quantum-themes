@@ -96,7 +96,6 @@
         "variable.other",
         "support.variable",
         "variable.parameter",
-        "meta.symbol",
         "meta.scope.prerequisites"
       ],
       "settings": {
@@ -199,7 +198,8 @@
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
-        "keyword.other"
+        "keyword.other",
+        "meta.symbol"
       ],
       "settings": {
         "foreground": "#2cbb0f"

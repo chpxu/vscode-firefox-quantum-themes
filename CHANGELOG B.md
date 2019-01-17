@@ -2,6 +2,12 @@
 
 Beta changelogs document every beta build which is published to GitHub, before release. Beta releases can be cloned from the `beta` branch, or else from the releases [here](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/releases) and look for the ones labelled `Pre-release` or 'Beta' in the title
 
+## Beta-1.1.x-3
+
+- Symbols in Clojure changed to green
+- Updated `SCREENSHOTS.md` with a few new and improved images
+- Maintaining Parity with Firefox DevTools [#28](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/28)
+
 ## Beta-1.1.x-2
 
 - CONSISTENCY Background colour changed on tabs to match DevTools, Light
