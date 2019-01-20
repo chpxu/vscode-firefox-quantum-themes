@@ -6,24 +6,24 @@ Please note, the code presented here is 100% not mine, and was manually typed ou
 ### Quantum Dark Theme
 
 Batch
-![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/bat.png)
+![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/bat.png)
 
 C
-![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/c.png)
+![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/c.png)
 
 C#
 
 C++
-![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/cpp.png)
+![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
 
 CSS
-![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/css.png)
+![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/css.png)
 
 Clojure
-![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/clojure.png)
+![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/clojure.png)
 
 CoffeeScript
-![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/coffee.png)
+![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/coffee.png)
 
 Diff
 
@@ -42,7 +42,7 @@ Groovy
 HLSL
 
 HTML
-![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/html.png)
+![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/html.png)
 
 Handlebars
 
@@ -51,12 +51,12 @@ Ignore
 Ini
 
 JSON/C
-![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/json.png)
+![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/json.png)
 
 Java
 
 JavaScript/React
-![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/js.png)
+![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/js.png)
 
 Less
 
@@ -65,7 +65,7 @@ Lua
 Makefile
 
 Markdown
-![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/md.png)
+![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/md.png)
 
 Objective-C
 
