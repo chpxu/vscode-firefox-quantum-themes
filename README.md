@@ -1,18 +1,12 @@
 # Firefox Quantum Themes
 
-This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information.
-
-I would also like to emphasize that this is NOT an exact replica, as the DevTools and Scratchpad are so inconsistently coloured, and they are sometimes hard to differentiate in terms of colour. I would like to say that I have attempted to stick to the original styling but swapped around a few colours for readability.
-
-Currently, both Dark Theme and Light Themes are available. Dark is mostly finished, most likely tweaks here and there. Light theme will be next focus - though it is quite well developed right now
+This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
 
 ## Screenshots
 
 See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
 
-## CHANGELOG
-
-Full Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+## [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
 
 ## Theme Colours
 
