@@ -8,7 +8,7 @@ Currently, both Dark Theme and Light Themes are available. Dark is mostly finish
 
 ## Screenshots
 
-See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/SCREENSHOTS.md)
+See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
 
 ## CHANGELOG
 
