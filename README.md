@@ -12,11 +12,7 @@ See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-th
 
 ## CHANGELOG
 
-I as a person always like to maintain 2 separate changelogs, one for original releases and one for preview/beta releases
-
 Full Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
-
-BETA Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG%20B.md)
 
 ## Theme Colours
 
