@@ -1,41 +1,46 @@
 {
-    "name": "firefox-quantum-themes",
-    "displayName": "Firefox Quantum Themes",
-    "description": "Themes for VSCode, based off Firefox Quantum DevTools.",
-    "version": "1.0.3",
-    "publisher": "beastdestroyer",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes"
-    },
-    "license": "MIT",
-    "icon": "icon.png",
-    "keywords": [
-        "firefox",
-        "devtools",
-        "theme",
-        "themes",
-        "fire",
-        "quantum"
-    ],
-    "engines": {
-        "vscode": "^1.26.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Firefox Quantum Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Quantum Dark.json"
-            },
-            {
-                "label": "Firefox Quantum Light",
-                "uiTheme": "vs",
-                "path": "./themes/Quantum Light.json"
-            }
-        ]
-    }
+	"name": "firefox-quantum-themes",
+	"displayName": "Firefox Quantum Themes",
+	"description": "Themes for VSCode, based off Firefox Quantum DevTools.",
+	"version": "1.0.4",
+	"publisher": "beastdestroyer",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes"
+	},
+	"license": "MIT",
+	"icon": "icon.png",
+	"keywords": [
+		"firefox",
+		"devtools",
+		"theme",
+		"themes",
+		"fire",
+		"quantum"
+	],
+	"engines": {
+		"vscode": "^1.26.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Firefox Quantum Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Quantum Dark.json"
+			},
+			{
+				"label": "Firefox Quantum Light",
+				"uiTheme": "vs",
+				"path": "./themes/Quantum Light.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "8beb05ad-9742-4210-acf0-4bb095b99e14",
+		"publisherDisplayName": "beastdestroyer",
+		"publisherId": "cb430ecf-bec2-43ca-873a-3bae150918ad"
+	}
 }
