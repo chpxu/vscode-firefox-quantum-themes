@@ -1,29 +1,27 @@
 # Firefox Quantum Themes
 
-This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information.
-
-I would also like to emphasize that this is NOT an exact replica, as the DevTools and Scratchpad are so inconsistently coloured, and they are sometimes hard to differentiate in terms of colour. I would like to say that I have attempted to stick to the original styling but swapped around a few colours for readability.
-
-Currently, both Dark Theme and Light Themes are available. Dark is mostly finished, most likely tweaks here and there. Light theme will be next focus - though it is quite well developed right now
+This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
 
 ## Screenshots
 
-See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/test%20files/screenshots/SCREENSHOTS.md)
+![Firefox Quantum Dark](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dark-ui.png)
+![Firefox Quantum Light](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/light-ui.png)
 
-## CHANGELOG
+For more:
+See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
 
-I as a person always like to maintain 2 separate changelogs, one for original releases and one for preview/beta releases
+## Changelogs
 
-Full Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+[Release Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
 
-BETA Release Changelog: [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG%20B.md)
+[Beta Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG%20%B.md)
 
 ## Theme Colours
 
 For the colours used, please refer to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors)
 Here is the quick list:
 
-The table is in the format of <DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECIMAL>, <LIGHT RGBA>
+The table is in the format of `<DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECIMAL>, <LIGHT RGBA>`
 
 - `#252c33, rgba(37, 44, 51, 1) | #ebeced, rgba(235, 236, 237, 1)`
 - `#343c45, rgba(52, 60, 69, 1) | #f0f1f2, rgba(240, 241, 242, 1)`

@@ -2,6 +2,38 @@
 
 Beta changelogs document every beta build which is published to GitHub, before release. Beta releases can be cloned from the `beta` branch, or else from the releases [here](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/releases) and look for the ones labelled `Pre-release` or 'Beta' in the title
 
+## Beta-1.1.x-5
+
+- FINAL Preparation stages for 1.1.0
+- Better Screenshots
+- Return operator `new` back to purple
+
+## Beta-1.1.x-4
+
+- Operators now coloured the same as types (light grey) to maintain consistency with DevTools, and to stop the amount of blue! 
+
+## Beta-1.1.x-3
+
+- Symbols in Clojure changed to green
+- Updated `SCREENSHOTS.md` with a few new and improved images
+- Maintaining Parity with Firefox DevTools [#28](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/28)
+
+## Beta-1.1.x-2
+
+- CONSISTENCY Background colour changed on tabs to match DevTools, Light
+- CONSISTENCY Tab border changed, Light
+- CONSISTENCY Selection now transparent to match DevTools and for better visibility
+
+## Beta-1.1.x-1
+
+- Maintaining parity with Firefox DevTools [#28](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/28)
+  - Variable colours now blue instead of red
+  - Property colours now green
+  - Numbers and interpolation now a more vibrant blue
+  - Support types and CSS Pseudos now a lighter/darker grey for dark/light themes respectively
+
+---
+
 ## Beta 1.0.x-4
 
 - Language improvements:

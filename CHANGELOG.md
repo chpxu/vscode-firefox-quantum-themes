@@ -2,6 +2,29 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.1.0
+
+Here lands a biggish update, including improvements to the theme to catch up to the Firefox DevTools, and improvements to repo structure.
+
+- Features:
+  - Support for basically all the other default languages
+  - Clean(er) repository
+    - Removal of test files
+    - Better screenshots
+    - Improved Wiki
+
+- Tweaks
+  - Maintaining parity with Firefox DevTools [#28](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/28)
+    - Variable colours now blue instead of red
+    - Property colours now green
+    - Numbers and interpolation now a more vibrant blue
+    - Support types and CSS Pseudos now a lighter/darker grey for dark/light themes respectively
+  - Operators now coloured the same as types (light grey) to maintain consistency with DevTools, and to stop the amount of blue! 
+  - Symbols in Clojure changed to green
+  - CONSISTENCY Background colour changed on tabs to match DevTools, Light
+  - CONSISTENCY Tab border changed, Light
+  - CONSISTENCY Selection now transparent to match DevTools and for better visibility
+
 
 ## 1.0.4
 

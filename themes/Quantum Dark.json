@@ -12,7 +12,7 @@
     "editor.background": "#181d20",
     "editor.foreground": "#b6babf",
     "editor.lineHighlightBackground": "#14171a",
-    "editor.selectionBackground": "#1d4f73aa",
+    "editor.selectionBackground": "#1d4f7340",
     "editor.wordHighlightBorder": "#252c33",
     "editorBracketMatch.border": "#aaaaaa",
     "editorCursor.foreground": "#b6babf",
@@ -92,7 +92,6 @@
         "variable.other",
         "support.variable",
         "variable.parameter",
-        "meta.symbol",
         "meta.scope.prerequisites"
       ],
       "settings": {
@@ -194,7 +193,8 @@
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
-        "keyword.other"
+        "keyword.other",
+        "meta.symbol"
       ],
       "settings": {
         "foreground": "#70bf53"
@@ -238,7 +238,14 @@
       "name": "Operators",
       "scope": ["keyword.operator", "punctuation.separator.key-value"],
       "settings": {
-        "foreground": "#5e88b0"
+        "foreground": "#8fa1b2"
+      }
+    },
+    {
+      "name": "new",
+      "scope": ["keyword.operator.new"],
+      "settings": {
+        "foreground": "#df80ff"
       }
     },
     {
@@ -439,7 +446,7 @@
       "name": "CSS ID's",
       "scope": ["source.sass keyword.control"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#46afe3"
       }
     },
     {
