@@ -2,8 +2,6 @@
 
 Beta changelogs document every beta build which is published to GitHub, before release. Beta releases can be cloned from the `beta` branch, or else from the releases [here](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/releases) and look for the ones labelled `Pre-release` or 'Beta' in the title
 
----
-
 ## Beta-1.1.x-5
 
 - FINAL Preparation stages for 1.1.0
