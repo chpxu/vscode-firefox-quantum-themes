@@ -36,7 +36,7 @@
     "sideBar.background": "#f7f7f7",
     "sideBarSectionHeader.background": "#ebeced",
     "sidebarSectionHeader.foreground": "#4c9ed9",
-    "statusBar.debuggingBackground": "#d97e00",
+    "statusBar.debuggingBackground": "#e6b064",
     "statusBar.debuggingForeground": "#f7f7f7",
     "statusBar.background": "#f7f7f7",
     "statusBar.foreground": "#585959",
@@ -99,7 +99,7 @@
         "meta.scope.prerequisites"
       ],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#ed2655"
       }
     },
     {
@@ -188,7 +188,7 @@
         "constant.other.bareword"
       ],
       "settings": {
-        "foreground": "#5b5fff"
+        "foreground": "#f13c00"
       }
     },
     {
@@ -274,7 +274,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#8fa1b2"
+        "foreground": "#d97e00"
       }
     },
     {
@@ -311,7 +311,7 @@
         "variable.sass"
       ],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#ed2655"
       }
     },
     {
@@ -351,7 +351,7 @@
         "entity.other.attribute-name.pseudo-element.css"
       ],
       "settings": {
-        "foreground": "#8fa1b2"
+        "foreground": "#d97e00"
       }
     },
     {
@@ -527,7 +527,7 @@
         "support.constant.media"
       ],
       "settings": {
-        "foreground": "#2cbb0f"
+        "foreground": "#ed2655"
       }
     },
     {

@@ -33,7 +33,7 @@
     "sideBar.background": "#14171a",
     "sideBarSectionHeader.background": "#181d20",
     "sidebarSectionHeader.foreground": "#b6babf",
-    "statusBar.debuggingBackground": "#d96629",
+    "statusBar.debuggingBackground": "#b28025",
     "statusBar.debuggingForeground": "#f5f7fa",
     "statusBar.background": "#14171a",
     "statusBar.foreground": "#b6babf",
@@ -82,7 +82,7 @@
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#6b7abb"
       }
     },
     {
@@ -95,7 +95,7 @@
         "meta.scope.prerequisites"
       ],
       "settings": {
-        "foreground": "#46afe3"
+        "foreground": "#eb5368"
       }
     },
     {
@@ -183,7 +183,7 @@
         "punctuation.section.embedded.coffee"
       ],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#d96629"
       }
     },
     {
@@ -269,7 +269,7 @@
       "name": "Entity Types",
       "scope": ["support.type"],
       "settings": {
-        "foreground": "#8fa1b2"
+        "foreground": "#ffffb4"
       }
     },
     {
@@ -306,7 +306,7 @@
         "variable.sass"
       ],
       "settings": {
-        "foreground": "#46afe3"
+        "foreground": "#eb5368"
       }
     },
     {
@@ -346,7 +346,7 @@
         "entity.other.attribute-name.pseudo-element.css"
       ],
       "settings": {
-        "foreground": "#8fa1b2"
+        "foreground": "#ffffb4"
       }
     },
     {
@@ -522,7 +522,7 @@
         "support.constant.media"
       ],
       "settings": {
-        "foreground": "#70bf53"
+        "foreground": "#eb5368"
       }
     },
     {
