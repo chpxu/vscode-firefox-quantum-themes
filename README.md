@@ -4,16 +4,24 @@ This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired b
 
 ## Screenshots
 
+![Firefox Quantum Dark](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dark-ui.png)
+![Firefox Quantum Light](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/light-ui.png)
+
+For more:
 See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
 
-## [CHANGELOG](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+## Changelogs
+
+[Release Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+
+[Beta Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG%20%B.md)
 
 ## Theme Colours
 
 For the colours used, please refer to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors)
 Here is the quick list:
 
-The table is in the format of <DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECIMAL>, <LIGHT RGBA>
+The table is in the format of `<DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECIMAL>, <LIGHT RGBA>`
 
 - `#252c33, rgba(37, 44, 51, 1) | #ebeced, rgba(235, 236, 237, 1)`
 - `#343c45, rgba(52, 60, 69, 1) | #f0f1f2, rgba(240, 241, 242, 1)`

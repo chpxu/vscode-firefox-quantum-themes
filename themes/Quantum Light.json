@@ -243,7 +243,14 @@
       "name": "Operators",
       "scope": ["keyword.operator", "punctuation.separator.key-value"],
       "settings": {
-        "foreground": "#0072ab"
+        "foreground": "#8fa1b2"
+      }
+    },
+    {
+      "name": "new",
+      "scope": ["keyword.operator.new"],
+      "settings": {
+        "foreground": "#b82ee5"
       }
     },
     {
@@ -444,7 +451,7 @@
       "name": "CSS ID's",
       "scope": ["source.sass keyword.control"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#0088cc"
       }
     },
     {
