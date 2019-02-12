@@ -13,11 +13,11 @@
     "editor.background": "#fcfcfc",
     "editor.foreground": "#585959",
     "editor.lineHighlightBackground": "#f7f7f7",
-    "editor.selectionBackground": "#4c9ed9aa",
+    "editor.selectionBackground": "#4c9ed940",
     "editor.wordHighlightBorder": "#ebeced",
     "editorBracketMatch.border": "#aaaaaa",
     "editorCursor.foreground": "#8fa1b2",
-    "editorGroupHeader.tabsBackground": "#ebeced",
+    "editorGroupHeader.tabsBackground": "#f7f7f7",
     "editorIndentGuide.background": "#ebeced",
     "editorIndentGuide.activeBackground": "#ebecedaa",
     "editorWidget.background": "#fcfcfc",
@@ -41,10 +41,10 @@
     "statusBar.background": "#f7f7f7",
     "statusBar.foreground": "#585959",
     "statusBarItem.hoverBackground": "#ebeced",
-    "tab.inactiveBackground": "#ebeced",
+    "tab.inactiveBackground": "#f7f7f7",
     "tab.focusedHoverBackground": "#f7f7f7",
-    "tab.unfocusedHoverBackground": "#f7f7f7",
-    "tab.border": "#ebeced",
+    "tab.unfocusedHoverBackground": "#fcfcfc",
+    "tab.border": "#f7f7f7",
     "tab.activeModifiedBorder": "#5b5fff",
     "titleBar.activeBackground": "#f7f7f7",
     "titleBar.activeForeground": "#585959",
@@ -96,7 +96,6 @@
         "variable.other",
         "support.variable",
         "variable.parameter",
-        "meta.symbol",
         "meta.scope.prerequisites"
       ],
       "settings": {
@@ -199,7 +198,8 @@
         "constant.character",
         "constant.escape",
         "keyword.other.unit",
-        "keyword.other"
+        "keyword.other",
+        "meta.symbol"
       ],
       "settings": {
         "foreground": "#2cbb0f"
@@ -243,7 +243,14 @@
       "name": "Operators",
       "scope": ["keyword.operator", "punctuation.separator.key-value"],
       "settings": {
-        "foreground": "#0072ab"
+        "foreground": "#8fa1b2"
+      }
+    },
+    {
+      "name": "new",
+      "scope": ["keyword.operator.new"],
+      "settings": {
+        "foreground": "#b82ee5"
       }
     },
     {
@@ -444,7 +451,7 @@
       "name": "CSS ID's",
       "scope": ["source.sass keyword.control"],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#0088cc"
       }
     },
     {
