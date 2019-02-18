@@ -2,6 +2,10 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.1.1
+
+- Fixed formatting of SCREENSHOTS.md
+
 ## 1.1.0
 
 Here lands a biggish update, including improvements to the theme to catch up to the Firefox DevTools, and improvements to repo structure.
