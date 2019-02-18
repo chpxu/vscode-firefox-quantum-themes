@@ -5,24 +5,24 @@ Please note, the code presented here is 100% not mine, and was manually typed ou
 
 ### Quantum Dark Theme
 
-Batch
+Batch\
 ![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/bat.png)
 
-C
+C\
 ![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/c.png)
 
 C#
 
-C++
+C++\
 ![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
 
-CSS
+CSS\
 ![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/css.png)
 
-Clojure
+Clojure\
 ![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/clojure.png)
 
-CoffeeScript
+CoffeeScript\
 ![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/coffee.png)
 
 Diff
@@ -41,7 +41,7 @@ Groovy
 
 HLSL
 
-HTML
+HTML\
 ![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/html.png)
 
 Handlebars
@@ -50,12 +50,12 @@ Ignore
 
 Ini
 
-JSON/C
+JSON/C\
 ![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/json.png)
 
 Java
 
-JavaScript/React
+JavaScript/React\
 ![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/js.png)
 
 Less
@@ -64,7 +64,7 @@ Lua
 
 Makefile
 
-Markdown
+Markdown\
 ![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/md.png)
 
 Objective-C
