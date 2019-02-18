@@ -5,6 +5,7 @@ This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired b
 ## Screenshots
 
 ![Firefox Quantum Dark](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dark-ui.png)
+
 ![Firefox Quantum Light](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/light-ui.png)
 
 For more:
