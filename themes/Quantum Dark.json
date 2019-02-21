@@ -95,7 +95,7 @@
         "meta.scope.prerequisites"
       ],
       "settings": {
-        "foreground": "#eb5368"
+        "foreground": "#70bf53"
       }
     },
     {
@@ -522,7 +522,7 @@
         "support.constant.media"
       ],
       "settings": {
-        "foreground": "#eb5368"
+        "foreground": "#70bf53"
       }
     },
     {
