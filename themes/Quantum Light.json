@@ -99,7 +99,7 @@
         "meta.scope.prerequisites"
       ],
       "settings": {
-        "foreground": "#2cbb0f"
+        "foreground": "#0088cc"
       }
     },
     {
@@ -426,7 +426,7 @@
         "entity.name.function"
       ],
       "settings": {
-        "foreground": "#0088cc"
+        "foreground": "#2cbb0f"
       }
     },
     {
