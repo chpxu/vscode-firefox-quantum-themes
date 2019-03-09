@@ -2,6 +2,11 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.1.3
+
+- Variables now blue, functions now green
+- Support classes, etc are now purple
+
 ## 1.1.1
 
 - Fixed formatting of SCREENSHOTS.md
