@@ -206,6 +206,7 @@
         "string",
         "string.quoted.double.json",
         "punctuation.definition.string",
+        "punctuation.support",
         "constant.other.symbol",
         "constant.other.key",
         "entity.other.inherited-class",
@@ -262,7 +263,7 @@
         "constant.other.bareword"
       ],
       "settings": {
-        "foreground": "#6b7abb"
+        "foreground": "#df80ff"
       }
     },
     {
@@ -515,7 +516,6 @@
     {
       "name": "Object Key",
       "scope": [
-        "support.type.property-name.json",
         "meta.object-literal.key",
         "variable.other.property",
         "support.variable.property",
@@ -523,6 +523,15 @@
       ],
       "settings": {
         "foreground": "#70bf53"
+      }
+    },
+    {
+      "name": "JS Key",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#6b7abb"
       }
     },
     {

@@ -267,7 +267,7 @@
         "constant.other.bareword"
       ],
       "settings": {
-        "foreground": "#5b5fff"
+        "foreground": "#b82ee5"
       }
     },
     {
@@ -528,6 +528,15 @@
       ],
       "settings": {
         "foreground": "#2cbb0f"
+      }
+    },
+    {
+      "name": "JS/JSON Key",
+      "scope": [
+        "support.type.property-name.json"
+      ],
+      "settings": {
+        "foreground": "#5b5fff"
       }
     },
     {

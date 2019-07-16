@@ -15,8 +15,6 @@ See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-th
 
 [Release Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
 
-[Beta Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG%20%B.md)
-
 ## Theme Colours
 
 For the colours used, please refer to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors)
@@ -40,7 +38,7 @@ The table is in the format of `<DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECI
 - `#d99b28, rgba(217, 155, 40, 1) | #d97e00, rgba(217, 126, 0, 1)`
 - `#70bf53, rgba(112, 191, 83, 1) | #2cbb0f, rgba(44, 187, 15, 1)`
 - `#5e88b0, rgba(94, 136, 176, 1) | #0072ab, rgba(0, 114, 171, 1)`
-- `#ffffb4, rgba(255, 255, 180, 1) | THE SAME`
+- `#ffffb4, rgba(255, 255, 180, 1)`
 
 ## Contribution
 
@@ -54,6 +52,6 @@ This theme was heavily inspired by Firefox DevTools, as well as the [One Dark Pr
 
 And the following:
 
-[**@compilenix**](https://github.com/compilenix) - First person to show interest and BETA TESTER
+- [**@compilenix**](https://github.com/compilenix): First person to show interest and BETA TESTER
 
 - All of you who have even just glanced!
