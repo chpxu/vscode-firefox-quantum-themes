@@ -55,3 +55,7 @@ And the following:
 - [**@compilenix**](https://github.com/compilenix): First person to show interest and BETA TESTER
 
 - All of you who have even just glanced!
+
+## License
+
+[MIT License](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/LICENSE.txt)
