@@ -519,7 +519,8 @@
         "meta.object-literal.key",
         "variable.other.property",
         "support.variable.property",
-        "support.constant.media"
+        "support.constant.media",
+        "support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#70bf53"
@@ -528,7 +529,7 @@
     {
       "name": "JS Key",
       "scope": [
-        "support.type.property-name.json"
+        "punctuation.support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#6b7abb"

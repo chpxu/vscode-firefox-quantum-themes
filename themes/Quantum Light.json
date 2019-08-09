@@ -533,7 +533,7 @@
     {
       "name": "JS/JSON Key",
       "scope": [
-        "support.type.property-name.json"
+        "punctuation.support.type.property-name.json"
       ],
       "settings": {
         "foreground": "#5b5fff"
