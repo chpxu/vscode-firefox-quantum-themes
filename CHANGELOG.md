@@ -2,6 +2,12 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.1.8
+- Made `storage.type.annotations` clearer to see in Light
+- Made user-defined generic functions highlighted on languages such as Python
+- Some misc back-end stuff
+
+
 ## 1.1.5
 
 - In-built classes for languages should now be pink (in accordance to Firefox DevTool/Scratchpad)

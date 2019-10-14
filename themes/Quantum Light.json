@@ -132,7 +132,7 @@
       "name": "Storage Annotation/Types",
       "scope": ["storage.type.annotation"],
       "settings": {
-        "foreground": "#ffffb4"
+        "foreground": "#d97e00"
       }
     },
     {
@@ -165,6 +165,7 @@
       "scope": [
         "variable.function",
         "support.function",
+        "meta.function-call.generic",
         "keyword.other.special-method",
         "meta.method.groovy"
       ],
@@ -241,7 +242,7 @@
     },
     {
       "name": "Operators",
-      "scope": ["keyword.operator", "punctuation.separator.key-value"],
+      "scope": ["keyword.operator", "punctuation.separator.key-value", "punctuation.definition.entity"],
       "settings": {
         "foreground": "#8fa1b2"
       }
