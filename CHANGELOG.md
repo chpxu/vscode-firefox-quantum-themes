@@ -2,6 +2,11 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.1.9
+- Made selection highlight in dark theme have better accessibility contrast
+- Changed some other things such as bracket highlighting slightly
+- Cursor now has a yellow tint
+
 ## 1.1.8
 - Made `storage.type.annotations` clearer to see in Light
 - Made user-defined generic functions highlighted on languages such as Python
