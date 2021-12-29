@@ -1,24 +1,23 @@
 # Firefox Quantum Themes
 
-This theme for [Visual Studio Code](https://code.visualstudio.com) is inspired by the colours used in Firefox Quantum's DevTools. This theme is Open-Source and anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
+The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.com) are inspired by the colours used in Firefox Quantum's DevTools. Using the exact same colours Mozilla use for the chrome and syntax highlighting in the DevTools, I've put together a beautifully dark and light theme. This theme is open-source and  will forever be open-source. Snyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
 
-## Screenshots
+## UI Screenshots
 
 ![Firefox Quantum Dark](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dark-ui.png)
 
 ![Firefox Quantum Light](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/light-ui.png)
 
-For more:
-See [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
+For syntax highlighting, see [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
 
 ## Changelogs
 
-[Release Changelog](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+[Changelog (includes in-development versions)](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
 
 ## Theme Colours
 
-For the colours used, please refer to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors)
-Here is the quick list:
+For the colours used, please refer to the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Tools/DevToolsColors) for the most up-to-date information
+Here is the quick summary:
 
 The table is in the format of `<DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECIMAL>, <LIGHT RGBA>`
 
@@ -46,6 +45,16 @@ I currently work on this theme in my spare time. As of writing, it is available 
 
 If editing and wanting to submit a pull request, please ensure that as much sufficient detail is provided, and briefly state your changes and why, or if meant to fix an issue, reference the problem alongside it.
 
+> Thanks for over 13,000 downloads! After 3 years I have decided this theme needs some improvement and TLC
+
+### repo vs Marketplace
+The marketplace version always contains the **stable** version of this theme. The repsitory here on GitHub also contains beta pushes. To run these beta pushes
+1. Locate the  `.vscode\extensions` folder or `.vscode-insiders\extensions` if using the Insiders builds
+2. Make a directory where you want to host this theme
+3. Download the repo as a zip
+4. Unzip, paste everything into the directory you created
+5. Restart VSCode
+6. You should see the themes "Firefox Quantum Dark" and "Firefox Quantum Light"
 ## Thank You's!
 
 This theme was heavily inspired by Firefox DevTools, as well as the [One Dark Pro Port](https://github.com/Binaryify/OneDark-Pro) and VSCode itself! Thanks to them all for the ideas :)

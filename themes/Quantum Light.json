@@ -5,6 +5,7 @@
     "activityBarBadge.background": "#585959",
     "activityBar.foreground": "#585959",
     "activityBar.background": "#f7f7f7",
+    "activityBar.activeBorder": "#0088cc",
     "badge.background": "#f0f1f2",
     "button.background": "#585959",
     "button.hoverBackground": "#4c9ed9",
@@ -712,6 +713,118 @@
       "scope": "token.debug-token",
       "settings": {
         "foreground": "#b267e6"
+      }
+    },
+    {
+      "name": "Types in PHP",
+      "scope": "keyword.other.type,php",
+      "settings": {
+        "foreground" : "#d97e00"
+      }
+    },
+    {
+      "name": "PHP Tag",
+      "scope": ["punctuation.section.embedded.begin.php", "punctuation.section.embedded.end.php"],
+      "settings": {
+        "foreground" : "#f13c00"
+      }
+    },
+    {
+      "name": "Types in C#",
+      "scope": ["keyword.other.type,php", "storage.type.cs", "entity.name.type.delegate.cs", "entity.name.type.enum.cs", "entity.name.type.namespace.cs", "keyword.type.cs"],
+      "settings": {
+        "foreground" : "#d97e00"
+      }
+    },
+    {
+      "name": "C# Enums and Entities and Variable-like",
+      "scope": ["entity.name.variable.enum-member.cs", "entity.name.variable.event.cs", "entity.name.variable.field.cs"],
+      "settings": {
+        "foreground": "#0088cc"
+      }
+    },
+    {
+      "name": "C# Keywords",
+      "scope": ["keyword.other.delegate.cs","keyword.other.enum.cs", "keyword.other.get.cs", "keyword.other.set.cs", "keyword.other.new.cs", "keyword.other.struct.cs", "keyword.other.namespace.cs", "keyword.other.class.cs", "keyword.other.event.cs"],
+      "settings": {
+        "foreground": "#b82ee5"
+      }
+    },
+    {
+      "name": "Types in YAML",
+      "scope": ["storage.type.tag-handle.yaml", "entity.name.type.anchor.yaml "],
+      "settings": {
+        "foreground" : "#d97e00"
+      }
+    },
+    {
+      "name": "Dates in YAML",
+      "scope": "constant.other.timestamp.yaml",
+      "settings": {
+        "foreground" : "#2cbb0f"
+      }
+    },
+    {
+      "name": "Variables in SQL",
+      "scope": "text.variable",
+      "settings": {
+        "foreground" : "#0088cc"
+      }
+    },
+    {
+      "name": "Text in [] in SQL, for easier reading",
+      "scope": "text.bracketed",
+      "settings": {
+        "foreground" : "#0072ab"
+      }
+    },
+    {
+      "name": "Embedded SQL in PHP",
+      "scope": "keyword.other.DML.sql",
+      "settings": {
+        "foreground" : "#f13c00"
+      }
+    },
+    {
+      "name": "Other keywords in SQL, such as IF, CREATE etc",
+      "scope": "keyword.other.sql",
+      "settings": {
+        "foreground" : "#b82ee5"
+      }
+    },
+    {
+      "name": "Other keywords in Julia",
+      "scope": "keyword.other.julia",
+      "settings": {
+        "foreground" : "#b82ee5"
+      }
+    },
+    {
+      "name": "Function MACROS Julia",
+      "scope": "support.function.macro.julia",
+      "settings": {
+        "foreground" : "#f13c00"
+      }
+    },
+    {
+      "name": "Meta symbols in Clojure",
+      "scope": "meta.symbol.clojure",
+      "settings": {
+        "foreground" : "#f13c00"
+      }
+    },
+    {
+      "name": "Keyword Constants in Clojure",
+      "scope": "constant.keyword.clojure",
+      "settings": {
+        "foreground" : "#0088cc"
+      }
+    },
+    {
+      "name": "Classes in Dart",
+      "scope": "support.class.dart",
+      "settings": {
+        "foreground" : "#d97e00"
       }
     }
   ]

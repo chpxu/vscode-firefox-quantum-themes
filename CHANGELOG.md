@@ -2,6 +2,37 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 1.2.0-beta1 
+### Colour Theming
+- `activityBar.activeBorder` is now blue as it is in DevTools
+
+### Syntax Highlighting
+- PHP
+  - Changed type highlighting in PHP to be yellow #43 (light orange in light theme)
+  - Embedded SQL follows the changes made in "SQL"
+- C#
+  - Changed type and delegate highlighting to be yellow
+  - Changed fields and event variables to be blue
+- YAML:
+  - Types yellow (light orange in light theme)
+  - Dates are now green
+- SQL:
+  - Params/variables are blue
+  - Bracketed text is now  blue-grey
+  - DML keywords are light orange 
+  - Other keywords are pink except aliases - they remain green.
+- Clojure
+  - Meta symbols are orange
+  - Keyword constants are blue
+- Dart
+  - Classes are now yellow (light orange in light theme)
+  - Regular variables are default text colour for this theme. They do not hae have a TextMate scope and thus I cannot make them blue as desired
+### Other
+- Screenshots to be added: PHP, SQL, C#, Rust, Julia, YAML, Dart
+- Screenshots to be modified: Clojure, Coffee
+- README updated
+
+The next beta (currently) will focus on cleaning up the repository, highlighting more languages and focusing on the minimap/decorations. This version is NOT on the marketplace.
 ## 1.1.9
 - Made selection highlight in dark theme have better accessibility contrast
 - Changed some other things such as bracket highlighting slightly
