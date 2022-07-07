@@ -17,7 +17,7 @@ import {
     highlight_bluegrey,
     highlight_yellow
 } from './colours';
-import { qd, ql, generateColors, generateTokenColors } from './generator';
+import { qd, ql, generateColours, generateTokenColours } from './generator';
 
 /*===Generating items in "colors"  {}===*/
 // colors using tab_toolbar_background
@@ -32,8 +32,6 @@ let colors252c33 = [
     "list.focusBackground"
 ];
 
-// calling functions for these arrays
-colors252c33.forEach(element => generateColors(element, tab_toolbar_background));
 
 /* Generating the tokenColors*/
 let tokenColorsdf80ff = [
@@ -55,8 +53,12 @@ let tokenColorsdf80ff = [
         ],
     }
 ];
+// calling functions for these arrays
+//colors
+colors252c33.forEach(element => generateColours(element, tab_toolbar_background));
 
-tokenColorsdf80ff.forEach(element => generateTokenColors(element.name, element.scope, highlight_pink, ["", ""], ""));
+//tokenColors
+tokenColorsdf80ff.forEach(element => generateTokenColours(element.name, element.scope, highlight_pink, ["", ""], ""));
 
 // Making the files
 let paths: string[] = [
