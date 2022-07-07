@@ -2,7 +2,8 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
-## 1.2.0-beta1 
+## 1.2.0
+
 ### Colour Theming
 - `activityBar.activeBorder` is now blue as it is in DevTools
 
@@ -28,8 +29,7 @@ Official Releases will be published when there are new versions. To see (beta ch
   - Classes are now yellow (light orange in light theme)
   - Regular variables are default text colour for this theme. They do not hae have a TextMate scope and thus I cannot make them blue as desired
 ### Other
-- Screenshots to be added: PHP, SQL, C#, Rust, Julia, YAML, Dart
-- Screenshots to be modified: Clojure, Coffee
+- Screenshots added: PHP, SQL, C#, YAML, Dart
 - README updated
 
 The next beta (currently) will focus on cleaning up the repository, highlighting more languages and focusing on the minimap/decorations. This version is NOT on the marketplace.

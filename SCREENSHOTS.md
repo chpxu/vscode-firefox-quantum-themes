@@ -12,6 +12,9 @@ C\
 C++\
 ![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
 
+C#\
+![C# Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
+
 CSS\
 ![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/css.png)
 
