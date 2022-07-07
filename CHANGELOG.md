@@ -2,6 +2,12 @@
 
 Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
 
+## 2.0.0-dev1
+### Project Structure
+- Import Modules: `fs`, `typescript`
+- Create the folder structure
+- Created variables for the colours
+- Created initial functions to generate for each attribute
 ## 1.2.0
 
 ### Colour Theming

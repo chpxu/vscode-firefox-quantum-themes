@@ -45,5 +45,10 @@
     "id": "8beb05ad-9742-4210-acf0-4bb095b99e14",
     "publisherDisplayName": "beastdestroyer",
     "publisherId": "cb430ecf-bec2-43ca-873a-3bae150918ad"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "fs": "^0.0.1-security",
+    "typescript": "^4.7.4"
   }
 }
