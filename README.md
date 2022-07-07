@@ -65,6 +65,8 @@ And the following:
 
 - All of you who have even just glanced!
 
+
+Note: I highly recommend having Colorized Bracket Pairs enabled and customised to your liking. It helps with bracket heavy languages, especially ones that aren't themable that well or you just end up writing a lot of brackets (LaTeX). I would not recommend setting the colours to the same ones as the theme (unless you want to do so), as this will make some merge with the keywords and thus make it harder to vsiaully locate brackets without the visualiser.
 ## License
 
 [MIT License](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/LICENSE.txt)

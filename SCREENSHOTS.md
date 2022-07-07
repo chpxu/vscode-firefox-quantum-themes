@@ -9,9 +9,11 @@ Batch\
 C\
 ![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/c.png)
 
-
 C++\
 ![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
+
+C#\
+![C# Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
 
 CSS\
 ![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/css.png)
@@ -22,13 +24,14 @@ Clojure\
 CoffeeScript\
 ![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/coffee.png)
 
+Dart\
+![Dart Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dart.png)
+
 HTML\
 ![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/html.png)
 
-
 JSON/C\
 ![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/json.png)
-
 
 JavaScript/React\
 ![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/js.png)
@@ -36,8 +39,14 @@ JavaScript/React\
 Markdown\
 ![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/md.png)
 
+PHP\
+![PHP Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/php.png)
+
 SCSS\
 ![SCSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/scss.png)
+
+SQL\
+![SQL Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/sql.png)
 
 TypeScript/React\
 ![TypeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/ts.png)
