@@ -1,13 +1,20 @@
 # Changelog
 
-Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
+Official Releases will be published when there are new versions. This changelog contains dev and stable updates. The stable chnagelog is a merger of all development updates. 
 
 ## 2.0.0-dev1
 ### Project Structure
-- Import Modules: `fs`, `typescript`
-- Create the folder structure
+- Import Modules: `fs`, `typescript`, `paths`
+- Create new the folder structure
+  - This is the creation of a new `scripts` folder where the magic happens
+
+  ### Code
 - Created variables for the colours
-- Created initial functions to generate for each attribute
+- Created initial functions to generate for each attribute. These are `generateColours` and `generateTokenColours`
+- Logic to create theme files done.
+
+### Repo
+- README updated for contributing to this branch (probably should work)
 ## 1.2.0
 
 ### Colour Theming

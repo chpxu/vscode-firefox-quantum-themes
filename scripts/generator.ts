@@ -1,13 +1,13 @@
 
-interface tokenColorSettings {
+interface tokenColourSettings {
     foreground: string;
     background?: string;
     fontStyle?: string;
 }
-interface tokenColor {
+interface tokenColour {
     name: string;
     scopes: string[];
-    settings: tokenColorSettings;
+    settings: tokenColourSettings;
 }
 interface colors {
     name: string;
@@ -25,14 +25,14 @@ export let ql = {
     colors: {},
     tokenColors:[]
 };
-export function generateTokenColors(
+export function generateTokenColours(
     name: string, 
     scope: string[],
     foreground: string[], 
     background?: string[], 
     fontStyle?: string
     ) : void {
-    let aTokenColorDark: tokenColor = {
+    let aTokenColourDark: tokenColour = {
         name: name, 
         scopes: scope, 
         settings: { 
@@ -41,7 +41,7 @@ export function generateTokenColors(
             fontStyle: fontStyle
         }
     };
-    let aTokenColorLight: tokenColor = {
+    let aTokenColourLight: tokenColour = {
         name: name, 
         scopes: scope, 
         settings: { 
@@ -50,13 +50,13 @@ export function generateTokenColors(
             fontStyle: fontStyle
         }
     };
-    qd.tokenColors.push(aTokenColorDark);
-    ql.tokenColors.push(aTokenColorLight);
+    qd.tokenColors.push(aTokenColourDark);
+    ql.tokenColors.push(aTokenColourLight);
 
     //console.log(JSON.stringify(aTokenColor));}
 }
 
-export function generateColors(name: string, color: string[]) : void {
-    qd.colors[name] = color[0];
-    ql.colors[name] = color[1];
+export function generateColours(name: string, colour: string[]) : void {
+    qd.colors[name] = colour[0];
+    ql.colors[name] = colour[1];
 }
