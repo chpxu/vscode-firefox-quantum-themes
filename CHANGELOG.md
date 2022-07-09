@@ -2,13 +2,29 @@
 
 Official Releases will be published when there are new versions. This changelog contains dev and stable updates. The stable chnagelog is a merger of all development updates. 
 
-## 2.0.0-dev1
+## 2.0.0-alpha.2
+### Project Structure
+- Move the atttributes to be themed into `colours.ts`. They are at the end of the file.
+- turn on a few TS compiler options:
+  - `noImplicitAny`,
+  - `noImplicitReturns`,
+  - `alwaysStrict`,
+  - `strictNullChecks`,
+  - `allowUnreachableCode: false`,
+  - `exactOptionalPropertyTypes: true`
+### Code
+- Created function logic to generate `tokenColors` and `colors` using `forEach` on an array of objects.
+  - This doesn't mean I have to spam repeated `generateTokenColours` and `` manually.
+  - Main issue is that now this is fragile code. In consequence, I now have arrays of colours that must be present in a specific order, so the theme is generated properly. 
+  - This issue must be explored further, for now they are marked as `const`.
+- 
+## 2.0.0-alpha.1
 ### Project Structure
 - Import Modules: `fs`, `typescript`, `paths`
 - Create new the folder structure
   - This is the creation of a new `scripts` folder where the magic happens
 
-  ### Code
+### Code
 - Created variables for the colours
 - Created initial functions to generate for each attribute. These are `generateColours` and `generateTokenColours`
 - Logic to create theme files done.

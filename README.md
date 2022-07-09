@@ -1,6 +1,6 @@
 # Firefox Quantum Themes
 
-The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.com) are inspired by the colours used in Firefox Quantum's DevTools. Using the exact same colours Mozilla use for the chrome and syntax highlighting in the DevTools, I've put together a beautifully dark and light theme. This theme is open-source and  will forever be open-source. Snyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
+The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.com) are inspired by the colours used in Firefox Quantum's DevTools. Using the exact same colours Mozilla use for the chrome and syntax highlighting in the DevTools, I've put together a beautifully dark and light theme. This theme is open-source and  will forever be open-source. Anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
 
 ## UI Screenshots
 
@@ -40,6 +40,12 @@ The table is in the format of `<DARK HEXADECIMAL>, <DARK RGBA> , <LIGHT HEXADECI
 - `#5e88b0, rgba(94, 136, 176, 1) | #0072ab, rgba(0, 114, 171, 1)`
 - `#ffffb4, rgba(255, 255, 180, 1)`
 
+
+## Theme Suggestions
+- Have Colourised Bracket pairs enabled.
+    - Don't theme it to the same colours as this theme, most colours should work well
+    - Brackets will be much clearer
+- Enable font ligatures if you have a font which supports them
 ## Contribution
 
 I currently work on this theme in my spare time. As of writing, it is available in the Marketplace. As a new developer, I am still attempting to work things out, thanks!
@@ -83,9 +89,6 @@ And the following:
 - [**@compilenix**](https://github.com/compilenix): First person to show interest and BETA TESTER
 
 - All of you who have even just glanced!
-
-
-Note: I highly recommend having Colorized Bracket Pairs enabled and customised to your liking. It helps with bracket heavy languages, especially ones that aren't themable that well or you just end up writing a lot of brackets (LaTeX). I would not recommend setting the colours to the same ones as the theme (unless you want to do so), as this will make some merge with the keywords and thus make it harder to vsiaully locate brackets without the visualiser.
 ## License
 
 [MIT License](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/LICENSE.txt)

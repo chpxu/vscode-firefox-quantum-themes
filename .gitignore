@@ -2,3 +2,4 @@ node_modules
 *.vsix
 test files/*
 junk files for testing/*
+metadata

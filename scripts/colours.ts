@@ -1,4 +1,8 @@
-// global variables for colours
+"use strict";
+
+import { constants } from "buffer";
+
+// global variables for colours and attributes to theme
 // These have the same name as they are listed here:
 // https://firefox-source-docs.mozilla.org/devtools-user/devtoolscolors/index.html
 // but without the "--theme" and all hyphens replaced with underscores
@@ -40,4 +44,311 @@ export const highlight_green: string[] = ["#70bf53", "#2cbb0f"];
 export const highlight_bluegrey: string[] = ["#5e88b0", "#0072ab"];
 export const highlight_yellow: string[] = ["#ffffb4", "#ffffb4"];
 
- 
+/*===Generating items in "colors"  {}===*/
+// colors using tab_toolbar_background
+export const coloursattr: string[][] = [
+    //#252c33
+    [
+        "activityBarBadge.background",
+        "editor.wordHighlightBorder",
+        "editorIndentGuide.background",
+        "input.background",
+        "list.hoverBackground",
+        "list.activeBackground",
+        "list.activeSelectionBackground",
+        "list.focusBackground"
+    ],
+
+    //#14171a
+    [
+        "activityBar.background",
+        "dropdown.background",
+        "editor.lineHighlightBackground",
+        "editorGroupHeader.tabsBackground",
+        "sideBar.background",
+        "statusBar.background",
+        "tab.inactiveBackground",
+        "tab.border",
+        "titleBar.activeBackground",
+        "terminal.ansiBlack"
+    ],
+
+    //#46afe3
+    [
+        "activityBar.activeBorder",
+        "terminal.ansiBlue"
+    ],
+
+    //#343c45
+    [
+        "badge.background",
+        "button.background",
+        "focusBorder"
+    ],
+
+    //#1d4f73
+    [
+        "button.hoverBackground",
+        "editor.selectionBackground"
+    ],
+
+    //#181d20
+    [
+        "debugToolBar.background",
+        "editor.background",
+        "editorWidget.background",
+        "list.inactiveSelectionBackground",
+        "panel.background",
+        "sideBarSectionHeader.background",
+        "tab.focusedHoverBackground",
+        "tab.unfocusedHoverBackground",
+        "titleBar.inactiveBackground"
+    ],
+
+    //#b6babf
+    [
+        "editor.foreground",
+        "sideBarTitle.foreground",
+        "sidebarSectionHeader.foreground",
+        "statusBar.foreground",
+        "titleBar.activeForeground",
+        "terminal.ansiWhite"
+    ],
+
+    //#a9bacb
+    [
+        "editorBracketMatch.border"
+    ],
+
+    //#ffffb4
+    [
+        "editorCursor.foreground",
+        "terminal.ansiYellow"
+    ],
+
+    //#b28025
+    [
+        "statusBar.debuggingBackground"
+    ],
+
+    //#f5f7fa
+    [
+        "statusBar.debuggingForeground"
+    ],
+    //#6b7abb
+    [
+        "tab.activeModifiedBorder"
+    ],
+    //#70bf53
+    [
+        "terminal.ansiGreen"
+    ],
+    //#eb5368
+    [
+        "terminal.ansiRed"
+    ],
+    //#d96629
+    [
+        "terminal.ansiBrightRed"
+    ]
+];
+//colors which aren't in the standard list of colours
+//#252c33aa
+export const _252c333aa: string[] = [
+    "editorIndentGuide.activeBackground",
+    "scrollbarSlider.background"
+];
+/* Generating the tokenColors*/
+export const tokenColoursAttr = [
+    {
+        name: "highlight_blue",
+        scope: [
+            //Variables
+            "variable",
+            "variable.other",
+            "support.variable",
+            "variable.parameter",
+            "meta.scope.prerequisites",
+            // Tags
+            "entity.name.tag",
+            "meta.tag.sgml",
+            "markup.deleted.git_gutter",
+            "entity.other.attribute-name.class",
+            "punctuation.section.embedded.begin",
+            "punctuation.section.embedded.end",
+            // CSS @ Rules
+            "punctuation.definition.keyword.css",
+            "punctuation.definition.keyword.scss",
+            "punctuation.definition.keyword.sass",
+            "punctuation.definition.keyword.less",
+            "punctuation.definition.keyword.stylus",
+            "keyword.control.css",
+            "keyword.control.scss",
+            "keyword.control.sass",
+            "keyword.control.less",
+            "keyword.control.stylus",
+            // CSS IDs
+            "source.sass keyword.control",
+            //RegExp
+            "string.regexp",
+            //Escape Characters
+            "constant.character.escape",
+            //Markdown Punctuation
+            "markup.heading.markdown punctuation.definition.heading.markdown",
+            "beginning.punctuation.definition.list.markdown",
+            "beginning.punctuation.definition.quote.markdown",
+            "punctuation.definition.metadata.markdown",
+            "punctuation.definition.list.begin.markdown",
+            "punctuation.definition.string.markdown",
+            //Token Information
+            "token.info-token",
+            //C# enums, entities and variable-like objects
+            "entity.name.variable.enum-member.cs", 
+            "entity.name.variable.event.cs", 
+            "entity.name.variable.field.cs",
+            // Text Variables (e.g., SQL)
+            "text.variable",
+            //Clojure constants
+            "constant.keyword.clojure"
+
+        ]
+    },
+
+    {
+        name: "highlight_pink",
+        scope: [
+            "constant.language.boolean",
+            "constant.language.json",
+            "constant.language",
+            // Reserved words
+            "keyword",
+            "storage.modifier",
+            "storage.control",
+            "storage.type",
+
+            // Entities 
+            "entity.name",
+            "support.type",
+            "support.class",
+            "support.other.namespace.use.php",
+            "meta.use.php",
+            "support.other.namespace.php",
+            "markup.changed.git_gutter",
+            "support.type.sys-types",
+            "constant.other.bareword",
+
+            // Methods
+            "variable.language",
+
+            //Attributes
+            "entity.other.attribute-name",
+            //HTML/XML Attributes
+            "text.html.basic entity.other.attribute-name.html",
+            "text.html.basic entity.other.attribute-name",
+            "text.xml entity.other.attribute-name",
+
+            // CSS
+            "support.type.vendored.property-name",
+            "entity.other.attribute-name.class.mixin",
+            "source.css support.constant.property-value",
+            "source.sass support.constant.property-value",
+            "source.scss support.constant.property-value",
+            "source.less support.constant.property-value",
+            "source.stylus support.constant.property-value",
+            "source.postcss support.constant.property-value",
+            "support.constant.color",
+            "support.function.misc.css",
+            "support.function.misc.scss",
+            "support.function.misc.sass",
+            "support.function.misc.less",
+            "support.function.misc.stylus",
+            "entity.other.attribute-name.id.css",
+
+            //C#
+            //  Keywords
+            "keyword.other.delegate.cs",
+            "keyword.other.enum.cs",
+            "keyword.other.get.cs",
+            "keyword.other.set.cs",
+            "keyword.other.new.cs",
+            "keyword.other.struct.cs",
+            "keyword.other.namespace.cs",
+            "keyword.other.class.cs",
+            "keyword.other.event.cs",
+
+            //SQL
+            "keyword.other.sql",
+
+            //Julia
+            "keyword.other.julia"
+        ]
+    },
+    {
+        name: "highlight_purple",
+        scope: [
+            //Numbers
+            "constant.numeric",
+            // Strings, Symbols, Inherited Classes, Markup Heading
+            "string",
+            "string.quoted.double.json",
+            "punctuation.definition.string",
+            "punctuation.support",
+            "constant.other.symbol",
+            "constant.other.key",
+            "entity.other.inherited-class",
+            "entity.global.clojure",
+            "markup.heading",
+            "markup.inserted.git_gutter",
+            "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
+            // JavaScript modules, imports, variable.other.class
+            "entity.name.module.js",
+            "variable.import.parameter.js",
+            "variable.other.class.js",
+            //["entity.name.method.js", "italic"], //temp for reminder
+        //["source.js constant.other.object.key.js string.unquoted.label.js", "italic"],
+        "punctuation.support.type.property-name.json",
+
+
+        ]
+    }
+];
+
+
+// {
+//       "name": "Markdown - Separator",
+//       "scope": ["meta.separator"],
+//       "settings": {
+//         "fontStyle": "bold",
+//         "background": "#00000050",
+//         "foreground": "#6b7abb"
+//       }
+//     },
+
+
+// calling functions for these arrays
+//colors
+export const coloursarray = [tab_toolbar_background, 
+    body_background,
+    highlight_blue, 
+    toolbar_background, 
+    selection_background,
+    sidebar_background,
+    body_color_alt,
+    content_color1,
+    highlight_yellow,
+    contrast_background,
+    selection_color,
+    highlight_purple,
+    highlight_green,
+    highlight_red,
+    highlight_orange
+    //highlight_pink,
+    //highlight_lightorange,
+    //highlight_bluegrey,
+];
+
+export const coloursTokenArray = [
+    highlight_blue,
+    highlight_pink,
+    highlight_purple
+]

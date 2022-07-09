@@ -1,25 +1,21 @@
-
+"use strict";
 interface tokenColourSettings {
     foreground: string;
     background?: string;
     fontStyle?: string;
-}
+};
 interface tokenColour {
     name: string;
-    scopes: string[];
+    scopes: string[] | [];
     settings: tokenColourSettings;
-}
-interface colors {
-    name: string;
-    color: string;
-}
-export let qd = {
+};
+export let qd : any = {
     name: "Quantum Dark",
     type: "dark",
     colors: {},
     tokenColors: []
 };
-export let ql = {
+export let ql : any = {
     name: "Quantum Light",
     type: "light",
     colors: {},
@@ -32,28 +28,28 @@ export function generateTokenColours(
     background?: string[], 
     fontStyle?: string
     ) : void {
-    let aTokenColourDark: tokenColour = {
-        name: name, 
-        scopes: scope, 
-        settings: { 
-            foreground: foreground[0], 
-            background: background[0], 
-            fontStyle: fontStyle
-        }
-    };
-    let aTokenColourLight: tokenColour = {
-        name: name, 
-        scopes: scope, 
-        settings: { 
-            foreground: foreground[1], 
-            background: background[1], 
-            fontStyle: fontStyle
-        }
-    };
-    qd.tokenColors.push(aTokenColourDark);
-    ql.tokenColors.push(aTokenColourLight);
-
-    //console.log(JSON.stringify(aTokenColor));}
+    if ((background != undefined) && (fontStyle != undefined)) {
+        let aTokenColourDark: tokenColour = {
+            name: name, 
+            scopes: scope, 
+            settings: { 
+                foreground: foreground[0], 
+                background: background[0], 
+                fontStyle: fontStyle
+            }
+        };
+        let aTokenColourLight: tokenColour = {
+            name: name, 
+            scopes: scope, 
+            settings: {
+                foreground: foreground[1], 
+                background: background[1], 
+                fontStyle: fontStyle
+            }
+        };
+        qd.tokenColors.push(aTokenColourDark);
+        ql.tokenColors.push(aTokenColourLight);
+    }
 }
 
 export function generateColours(name: string, colour: string[]) : void {
