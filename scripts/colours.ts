@@ -310,24 +310,35 @@ export const tokenColoursAttr = [
 
 
         ]
+    },
+    {
+        name: "highlight_red",
+        scope: [
+            //Templates
+            "constant.other.color",
+            "keyword.other.template",
+            "keyword.other.substitution",
+            //Other variables/strings
+            "support.other.variable", 
+            "string.other.link",
+            //CSS Variables
+            "variable.scss",
+            "variable.css",
+            "variable.stylus",
+            "variable.postcss",
+            "variable.sass",
+            //Deleted markup
+            "markup.deleted"
+        ]
     }
 ];
 
 
-// {
-//       "name": "Markdown - Separator",
-//       "scope": ["meta.separator"],
-//       "settings": {
-//         "fontStyle": "bold",
-//         "background": "#00000050",
-//         "foreground": "#6b7abb"
-//       }
-//     },
-
 
 // calling functions for these arrays
 //colors
-export const coloursarray = [tab_toolbar_background, 
+export const coloursarray = [
+    tab_toolbar_background, 
     body_background,
     highlight_blue, 
     toolbar_background, 
@@ -350,5 +361,6 @@ export const coloursarray = [tab_toolbar_background,
 export const coloursTokenArray = [
     highlight_blue,
     highlight_pink,
-    highlight_purple
+    highlight_purple,
+    highlight_red
 ]

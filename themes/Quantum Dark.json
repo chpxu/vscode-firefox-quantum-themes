@@ -181,6 +181,107 @@
 				"background": "",
 				"fontStyle": ""
 			}
+		},
+		{
+			"name": "highlight_red",
+			"scopes": [
+				"constant.other.color",
+				"keyword.other.template",
+				"keyword.other.substitution",
+				"support.other.variable",
+				"string.other.link",
+				"variable.scss",
+				"variable.css",
+				"variable.stylus",
+				"variable.postcss",
+				"variable.sass",
+				"markup.deleted"
+			],
+			"settings": {
+				"foreground": "#eb5368",
+				"background": "",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Italic Markup",
+			"scopes": [
+				"markup.italic"
+			],
+			"settings": {
+				"foreground": "#eb5368",
+				"background": "",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Bold Markup",
+			"scopes": [
+				"markup.bold",
+				"markup.bold string"
+			],
+			"settings": {
+				"foreground": "#eb5368",
+				"background": "",
+				"fontStyle": "bold"
+			}
+		},
+		{
+			"name": "Underline Markup",
+			"scopes": [
+				"markup.underline"
+			],
+			"settings": {
+				"foreground": "#eb5368",
+				"background": "",
+				"fontStyle": "underline"
+			}
+		},
+		{
+			"name": "Strikethrough Markup",
+			"scopes": [
+				"markup.strike"
+			],
+			"settings": {
+				"foreground": "#eb5368",
+				"background": "",
+				"fontStyle": "strike"
+			}
+		},
+		{
+			"name": "Link Markup",
+			"scopes": [
+				"string.other.link.title.markdown",
+				"string.other.link.description.title.markdown",
+				"constant.other.reference.link.markdown"
+			],
+			"settings": {
+				"foreground": "#eb5368",
+				"background": "",
+				"fontStyle": ""
+			}
+		},
+		{
+			"name": "Markup Quotes",
+			"scopes": [
+				"markup.quote"
+			],
+			"settings": {
+				"foreground": "#5c6773",
+				"background": "",
+				"fontStyle": "italic"
+			}
+		},
+		{
+			"name": "Markup Quotes",
+			"scopes": [
+				"meta.separator"
+			],
+			"settings": {
+				"foreground": "#6b7abb",
+				"background": "#00000050",
+				"fontStyle": "bold"
+			}
 		}
 	]
 }
