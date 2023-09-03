@@ -5,7 +5,7 @@ interface tokenColourSettings {
 }
 interface tokenColour {
   name: string;
-  scope: string[] | [];
+  scope: string[];
   settings: tokenColourSettings;
 }
 export let qd: any = {
@@ -27,24 +27,26 @@ export function generateTokenColours(
   background?: string[],
   fontStyle?: string
 ): void {
-  let aTokenColourDark: tokenColour = {
+  let genericSetting = {
     name: name,
     scope: scopes,
-    settings: {
-      foreground: foreground[0],
-      background: background !== undefined ? background[0] : "",
-      fontStyle: fontStyle !== undefined ? fontStyle : "",
-    },
   };
-  let aTokenColourLight: tokenColour = {
-    name: name,
-    scope: scopes,
-    settings: {
-      foreground: foreground[1],
-      background: background !== undefined ? background[1] : "",
-      fontStyle: fontStyle !== undefined ? fontStyle : "",
-    },
-  };
+  let aTokenColourDark: tokenColour = Object.assign(genericSetting, {
+    settings: { foreground: foreground[0] },
+  });
+  let aTokenColourLight: tokenColour = Object.assign(genericSetting, {
+    settings: { foreground: foreground[1] },
+  });
+  if (background !== undefined) {
+    let backgroundDark = background[0];
+    let backgroundLight = background[1];
+    aTokenColourDark["settings"]["background"] = backgroundDark;
+    aTokenColourLight["settings"]["background"] = backgroundLight;
+  }
+  if (fontStyle !== undefined) {
+    aTokenColourDark["settings"]["fontStyle"] = fontStyle;
+    aTokenColourLight["settings"]["fontStyle"] = fontStyle;
+  }
   qd.tokenColors.push(aTokenColourDark);
   ql.tokenColors.push(aTokenColourLight);
 }

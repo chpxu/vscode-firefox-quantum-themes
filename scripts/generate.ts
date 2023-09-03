@@ -25,13 +25,7 @@ coloursattr.forEach(function (element, index) {
 
 //tokenColors
 tokenColoursAttr.forEach(function (element, index) {
-  generateTokenColours(
-    element.name,
-    element.scope,
-    coloursTokenArray[index],
-    ["", ""],
-    ""
-  );
+  generateTokenColours(element.name, element.scope, coloursTokenArray[index]);
 });
 generateColours("editorBracketMatch.background", coloursarray[1]);
 generateColours("editorBracketMatch.border", comment);
@@ -99,9 +93,7 @@ generateTokenColours(
 generateTokenColours(
   "Comments",
   ["comment", "punctuation.definition.comment"],
-  comment,
-  ["", ""],
-  ""
+  comment
 );
 //Markup Separators
 generateTokenColours(
@@ -115,9 +107,7 @@ generateTokenColours(
 generateTokenColours(
   "Nix configuration",
   ["entity.other.attribute-name.multipart.nix"],
-  ["#b6babf", "#585959"],
-  ["", ""],
-  ""
+  ["#b6babf", "#585959"]
 );
 
 // Making the files

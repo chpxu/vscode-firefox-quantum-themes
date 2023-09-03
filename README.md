@@ -1,6 +1,6 @@
 # Firefox Quantum Themes
 
-The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.com) are inspired by the colours used in Firefox Quantum's DevTools. Using the exact same colours Mozilla use for the chrome and syntax highlighting in the DevTools, I've put together a beautifully dark and light theme. This theme is open-source and will forever be open-source. Anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox Users, this theme will be especially pleasing to use!
+The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.com) are inspired by the colours used in Firefox Quantum's DevTools. Using the exact same colours Mozilla use for the chrome and syntax highlighting in the DevTools, I've put together a beautifully dark and light theme. This theme is open-source and will forever be open-source. Anyone is welcome to submit PRs, open issues etc. I would love to hear your feedback! Look below for more information. For Firefox users, this theme will be especially pleasing to use!
 
 ## UI Screenshots
 
@@ -12,7 +12,7 @@ For syntax highlighting, see [SCREENSHOTS.md](https://github.com/beastdestroyer/
 
 ## Changelogs
 
-[Changelog (includes in-development versions)](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+[Changelog (includes in-development versions)](https://github.com/chpxu/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
 
 ## Theme Colours
 
@@ -46,9 +46,9 @@ See [Differences.md](./DIFFERENCES.md)
 ## Theme Suggestions
 
 - Have Colourised Bracket pairs enabled.
-  - Don't theme it to the same colours as this theme, most colours should work well
-  - Brackets will be much clearer
-- Enable font ligatures if you have a font which supports them
+  - Don't theme it to the same colours as this theme, most colours should work well.
+  - Brackets will be much clearer.
+- Enable font ligatures if you have a font which supports them.
 
 ## Contribution
 
@@ -58,18 +58,18 @@ If editing and wanting to submit a pull request, please ensure that as much suff
 
 As of `v2.0.0`, I have changed how the theme files are generated. Upon opening the theme files `Quantum Light.json` and `Quantum Dark.json`, you will see the properties organised terribly. This is because the theme files are generated at the run of a command.
 
-- The files `Quantum Light old.json` and `Quantum Dark old.json` are the current stable theme values (currently `v1.2.0`). This was for legacy comparison's sake when developing this version.
+- The files `Quantum Light old.json` and `Quantum Dark old.json` are the legacy theme values (`v1.2.0`). This was for comparison's sake when developing `v2`.
 
 To build and test your modifications, follow these steps:
 
-1. Clone the repository
-2. Install the `devDependencies` with `npm i -D` and install `ts-node` globally with `npm i -g ts-node`
+1. Clone the repository. Have NodeJS and Yarn installed.
+2. Install the dependencies with `yarn install`.
 3. Make modifications to the `generate.ts` file as necessary
-   - You probably will never modify the `colours.ts` file. These contain all the global colours used and will never change unless Mozilla make a change to the DevTools scheme.
-   - The `generator.ts` contains the functions that actually generate the `JSON`
+   - Modifying `colours.ts` will most likely be the main focus. It contains the objects which will get output into the final theme files.
+   - The `generator.ts` contains the functions that actually generate the `JSON`. This file will probably never need to be touched unless modifying the structure.
    - The `generate.ts` contains the function calls for each relevant scope and theme attribute. It is just lines of function-calling code. You will spend almost all your time here modifying colours and scopes
-4. In a terminal, run `ts-node ./scripts/generate.ts` (you may need admin previleges to do so). This will add theme files to `./themes`. (should probably make it an npm script when bothered)
-5. Press `F5` (or whatever shortcut you have to debug extensions) and the debugging VSCode window will open up with the new theme files.
+4. In a terminal, run `npm run generate` (you may need admin previleges to do so). This will add theme files to `./themes`. Under the hood, this command runs `ts-node ./scripts/generate.ts`.
+5. Press `F5` (or whatever shortcut you have to debug extensions) and the Extension Host will open up with the new theme files applied.
 
 ### Repo vs Marketplace
 
@@ -99,3 +99,5 @@ And the following:
 ## License
 
 [MIT License](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/LICENSE.txt)
+
+Wow, this extension dates back to VSCode 1.26.0!

@@ -52,7 +52,8 @@
 		"terminal.ansiRed": "#ed2655",
 		"terminal.ansiBrightRed": "#f13c00",
 		"editorBracketMatch.background": "#fcfcfc",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ed2655"
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ed2655",
+		"editorBracketHighlight.foreground1": "#2cbb0f"
 	},
 	"tokenColors": [
 		{
@@ -396,9 +397,7 @@
 				"punctuation.definition.comment"
 			],
 			"settings": {
-				"foreground": "#747573",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#747573"
 			}
 		},
 		{
@@ -418,9 +417,7 @@
 				"entity.other.attribute-name.multipart.nix"
 			],
 			"settings": {
-				"foreground": "#585959",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#585959"
 			}
 		}
 	]
