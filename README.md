@@ -10,6 +10,39 @@ The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.co
 
 For syntax highlighting, see [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
 
+### Supported Languages
+
+By "supported languages", I mean languages where the syntax highlighting doesn't look (too) terrible and makes sense.
+
+- Batch/Shell/PowerShell
+- C/C++/C# (with their respective extensions)
+- Clojure
+- CoffeeScript
+- CSS/SASS/SCSS/LESS
+- Dart
+- Dockerfile (with the `jeff-hykin.better-dockerfile-syntax` extension)
+- F# (Limited support). Tested with the extension `Ionide for F#: ionide.ionide-fsharp`.
+- Go
+- GraphQL (with extension `graphql.vscode-graphql-syntax`)
+- HTML
+- Java
+- JavaScript
+- JSON/C
+- JSX
+- Nix (with `jnoortheen.nix-ide`)
+- PHP
+- Pug
+- Python (with Python extension)
+- Ruby
+- Rust (via `rust-lang.rust-analyzer`)
+- SQL
+- TeX/LaTeX (with extension `james-yu.latex-workshop`)
+- TOML (with extension `tamasfe.even-better-toml`)
+- TypeScript
+- Vue
+- XML
+- YAML
+
 ## Changelogs
 
 [Changelog (includes in-development versions)](https://github.com/chpxu/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)

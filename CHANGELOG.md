@@ -1,42 +1,37 @@
 # Changelog
 
-Official Releases will be published when there are new versions. This changelog contains dev and stable updates. The stable chnagelog is a merger of all development updates. 
+Official Releases will be published when there are new versions. This changelog contains dev and stable updates. The stable chnagelog is a merger of all development updates.
 
-## 2.0.0-alpha.2
-### Project Structure
-- Move the atttributes to be themed into `colours.ts`. They are at the end of the file.
-- turn on a few TS compiler options:
-  - `noImplicitAny`,
-  - `noImplicitReturns`,
-  - `alwaysStrict`,
-  - `strictNullChecks`,
-  - `allowUnreachableCode: false`,
-  - `exactOptionalPropertyTypes: true`
-### Code
-- Created function logic to generate `tokenColors` and `colors` using `forEach` on an array of objects.
-  - This doesn't mean I have to spam repeated `generateTokenColours` and `` manually.
-  - Main issue is that now this is fragile code. In consequence, I now have arrays of colours that must be present in a specific order, so the theme is generated properly. 
-  - This issue must be explored further, for now they are marked as `const`.
-- 
-## 2.0.0-alpha.1
-### Project Structure
-- Import Modules: `fs`, `typescript`, `paths`
-- Create new the folder structure
-  - This is the creation of a new `scripts` folder where the magic happens
+## 2.0.0
 
-### Code
-- Created variables for the colours
-- Created initial functions to generate for each attribute. These are `generateColours` and `generateTokenColours`
-- Logic to create theme files done.
+Wow, it finally happened after 1 year.
 
-### Repo
-- README updated for contributing to this branch (probably should work)
+### Development
+
+- Development has moved to TypeScript! See [README](./README.md) for more details. Theme files are now generated at the run of a command rather than manually modifying JSON files.
+  - Created function logic to generate `tokenColors` and `colors`.
+- ESLint to lint the TS files. Currently default settings (`recommended`).
+- Added `direnv` and `nix` files for development.
+
+### Updates
+
+- `DIFFERENCES.md` keeps track of known differences with current devtools alongside any reasoning/ways forward
+- Added `editor.rangeHighlightBackground`
+- Added support for `.nix` files
+- All comments are now the colours of `comment`.
+- Added support for `dockerfile` via the extension `jeff-hykin.better-dockerfile-syntax`.
+- Added limited support for `F#`. Tested with the extension `Ionide for F#: ionide.ionide-fsharp`.
+- Added support for Rust (via `rust-lang.rust-analyzer`) keywords and namespaces.
+- Added limited support for other various inbuilt languages. Everything else is mostly the same.
+
 ## 1.2.0
 
 ### Colour Theming
+
 - `activityBar.activeBorder` is now blue as it is in DevTools
 
 ### Syntax Highlighting
+
 - PHP
   - Changed type highlighting in PHP to be yellow #43 (light orange in light theme)
   - Embedded SQL follows the changes made in "SQL"
@@ -48,8 +43,8 @@ Official Releases will be published when there are new versions. This changelog 
   - Dates are now green
 - SQL:
   - Params/variables are blue
-  - Bracketed text is now  blue-grey
-  - DML keywords are light orange 
+  - Bracketed text is now blue-grey
+  - DML keywords are light orange
   - Other keywords are pink except aliases - they remain green.
 - Clojure
   - Meta symbols are orange
@@ -57,21 +52,25 @@ Official Releases will be published when there are new versions. This changelog 
 - Dart
   - Classes are now yellow (light orange in light theme)
   - Regular variables are default text colour for this theme. They do not hae have a TextMate scope and thus I cannot make them blue as desired
+
 ### Other
+
 - Screenshots added: PHP, SQL, C#, YAML, Dart
 - README updated
 
 The next beta (currently) will focus on cleaning up the repository, highlighting more languages and focusing on the minimap/decorations. This version is NOT on the marketplace.
+
 ## 1.1.9
+
 - Made selection highlight in dark theme have better accessibility contrast
 - Changed some other things such as bracket highlighting slightly
 - Cursor now has a yellow tint
 
 ## 1.1.8
+
 - Made `storage.type.annotations` clearer to see in Light
 - Made user-defined generic functions highlighted on languages such as Python
 - Some misc back-end stuff
-
 
 ## 1.1.5
 
@@ -94,6 +93,7 @@ The next beta (currently) will focus on cleaning up the repository, highlighting
 Here lands a biggish update, including improvements to the theme to catch up to the Firefox DevTools, and improvements to repo structure.
 
 - Features:
+
   - Support for basically all the other default languages
   - Clean(er) repository
     - Removal of test files
@@ -112,10 +112,10 @@ Here lands a biggish update, including improvements to the theme to catch up to 
   - CONSISTENCY Tab border changed, Light
   - CONSISTENCY Selection now transparent to match DevTools and for better visibility
 
-
 ## 1.0.4
 
 - Improved Language Support for:
+
   - Perl/Perl6
   - PHP
   - Python
@@ -127,7 +127,6 @@ Here lands a biggish update, including improvements to the theme to catch up to 
 - Select in Dropdowns now grey again! (Quantum Light)
 - Theme title is not the same as name of extension [#25](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/25)
 - Yellow not visible in Quantum Light [#22](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/22)
-
 
 ## 1.0.2
 
