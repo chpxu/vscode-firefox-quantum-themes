@@ -34,7 +34,7 @@ generateColours(
   highlight_red
 );
 generateColours("editorBracketHighlight.foreground1", highlight_green);
-
+generateColours("editor.rangeHighlightBackground", ["#eb5568d9", "#ed2655d9"]);
 //Markdown/up specific
 //Italic
 generateTokenColours(

@@ -53,7 +53,8 @@
 		"terminal.ansiBrightRed": "#d96629",
 		"editorBracketMatch.background": "#14171a",
 		"editorBracketHighlight.unexpectedBracket.foreground": "#eb5368",
-		"editorBracketHighlight.foreground1": "#70bf53"
+		"editorBracketHighlight.foreground1": "#70bf53",
+		"editor.rangeHighlightBackground": "#eb5568d9"
 	},
 	"tokenColors": [
 		{
