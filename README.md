@@ -39,13 +39,11 @@ By "supported languages", I mean languages where the syntax highlighting doesn't
 - TeX/LaTeX (with extension `james-yu.latex-workshop`)
 - TOML (with extension `tamasfe.even-better-toml`)
 - TypeScript
-- Vue
-- XML
+- Vue (with extension `vue.volar`)
+- XML (with extension `dotjoshjohnson.xml`)
 - YAML
 
-## Changelogs
-
-[Changelog (includes in-development versions)](https://github.com/chpxu/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
+## [Changelog](https://github.com/chpxu/vscode-firefox-quantum-themes/blob/master/CHANGELOG.md)
 
 ## Theme Colours
 
@@ -96,13 +94,15 @@ As of `v2.0.0`, I have changed how the theme files are generated. Upon opening t
 To build and test your modifications, follow these steps:
 
 1. Clone the repository. Have NodeJS and Yarn installed.
-2. Install the dependencies with `yarn install`.
+2. Run `direnv allow .`. Then install the dependencies with `yarn install`.
 3. Make modifications to the `generate.ts` file as necessary
    - Modifying `colours.ts` will most likely be the main focus. It contains the objects which will get output into the final theme files.
    - The `generator.ts` contains the functions that actually generate the `JSON`. This file will probably never need to be touched unless modifying the structure.
    - The `generate.ts` contains the function calls for each relevant scope and theme attribute. It is just lines of function-calling code. You will spend almost all your time here modifying colours and scopes
 4. In a terminal, run `npm run generate` (you may need admin previleges to do so). This will add theme files to `./themes`. Under the hood, this command runs `ts-node ./scripts/generate.ts`.
-5. Press `F5` (or whatever shortcut you have to debug extensions) and the Extension Host will open up with the new theme files applied.
+5. Press `F5` (or whatever shortcut you have to debug extensions) and the Extension Host will open up with the new theme files applied. Please ensure you run the generate command after making any changes.
+
+If you wish to lint, you can run `npm run lint`.
 
 ### Repo vs Marketplace
 
