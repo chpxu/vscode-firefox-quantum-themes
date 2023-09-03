@@ -39,7 +39,7 @@ export const highlight_orange: string[] = ["#d96629", "#f13c00"];
 export const highlight_lightorange: string[] = ["#d99b28", "#d97e00"];
 export const highlight_green: string[] = ["#70bf53", "#2cbb0f"];
 export const highlight_bluegrey: string[] = ["#5e88b0", "#0072ab"];
-export const highlight_yellow: string[] = ["#ffffb4", "#ffffb4"];
+export const highlight_yellow: string[] = ["#ffffb4", "#d97e00"];
 
 /*===Generating items in "colors"  {}===*/
 // colors using tab_toolbar_background
@@ -250,6 +250,9 @@ export const tokenColoursAttr = [
 
       //Julia
       "keyword.other.julia",
+
+      // Rust
+      "keyword.other.fn.rust",
     ],
   },
   {
@@ -310,6 +313,9 @@ export const tokenColoursAttr = [
       "punctuation.definition.template-expression",
       "punctuation.definition.interpolation",
       "punctuation.section.embedded.coffee",
+      // dockerfile
+      "punctuation.section.bracket.curly.variable.begin.shell.dockerfile",
+      "punctuation.section.bracket.curly.variable.end.shell.dockerfile",
       // Changed
       "markup.changed",
       // PHP opening/closing tags
@@ -321,6 +327,8 @@ export const tokenColoursAttr = [
       "support.function.macro.julia",
       // Clojure meta symbol
       "meta.symbol.clojure",
+      // F# Symbol
+      "keyword.symbol.fsharp",
     ],
   },
   {
@@ -372,6 +380,8 @@ export const tokenColoursAttr = [
       "log.exceptiontype",
       // YAML dates
       "constant.other.timestamp.yaml",
+      // F# Entities
+      "entity.name.section.fsharp",
     ],
   },
   {
@@ -411,6 +421,11 @@ export const tokenColoursAttr = [
       // CSS pseudo-classes
       "entity.other.attribute-name.pseudo-class.css",
       "entity.other.attribute-name.pseudo-element.css",
+      // F#
+      "entity.name.type.fsharp",
+      // Rust namespace
+      "entity.name.namespace.rust",
+      "keyword.operator.namespace.rust",
     ],
   },
 ];

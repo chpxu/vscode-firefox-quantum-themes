@@ -43,8 +43,8 @@
 		"titleBar.activeForeground": "#585959",
 		"terminal.ansiWhite": "#585959",
 		"editorBracketMatch.border": "#747573",
-		"editorCursor.foreground": "#ffffb4",
-		"terminal.ansiYellow": "#ffffb4",
+		"editorCursor.foreground": "#d97e00",
+		"terminal.ansiYellow": "#d97e00",
 		"statusBar.debuggingBackground": "#e6b064",
 		"statusBar.debuggingForeground": "#f5f7fa",
 		"tab.activeModifiedBorder": "#5b5fff",
@@ -150,7 +150,8 @@
 				"keyword.other.class.cs",
 				"keyword.other.event.cs",
 				"keyword.other.sql",
-				"keyword.other.julia"
+				"keyword.other.julia",
+				"keyword.other.fn.rust"
 			],
 			"settings": {
 				"foreground": "#b82ee5"
@@ -204,12 +205,15 @@
 				"punctuation.definition.template-expression",
 				"punctuation.definition.interpolation",
 				"punctuation.section.embedded.coffee",
+				"punctuation.section.bracket.curly.variable.begin.shell.dockerfile",
+				"punctuation.section.bracket.curly.variable.end.shell.dockerfile",
 				"markup.changed",
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php",
 				"keyword.other.DML.sql",
 				"support.function.macro.julia",
-				"meta.symbol.clojure"
+				"meta.symbol.clojure",
+				"keyword.symbol.fsharp"
 			],
 			"settings": {
 				"foreground": "#f13c00"
@@ -257,7 +261,8 @@
 				"support.constant.media",
 				"support.type.property-name.json",
 				"log.exceptiontype",
-				"constant.other.timestamp.yaml"
+				"constant.other.timestamp.yaml",
+				"entity.name.section.fsharp"
 			],
 			"settings": {
 				"foreground": "#2cbb0f"
@@ -294,10 +299,13 @@
 				"entity.name.type.namespace.cs",
 				"keyword.type.cs",
 				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css"
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.name.type.fsharp",
+				"entity.name.namespace.rust",
+				"keyword.operator.namespace.rust"
 			],
 			"settings": {
-				"foreground": "#ffffb4"
+				"foreground": "#d97e00"
 			}
 		},
 		{

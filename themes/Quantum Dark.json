@@ -150,7 +150,8 @@
 				"keyword.other.class.cs",
 				"keyword.other.event.cs",
 				"keyword.other.sql",
-				"keyword.other.julia"
+				"keyword.other.julia",
+				"keyword.other.fn.rust"
 			],
 			"settings": {
 				"foreground": "#df80ff"
@@ -204,12 +205,15 @@
 				"punctuation.definition.template-expression",
 				"punctuation.definition.interpolation",
 				"punctuation.section.embedded.coffee",
+				"punctuation.section.bracket.curly.variable.begin.shell.dockerfile",
+				"punctuation.section.bracket.curly.variable.end.shell.dockerfile",
 				"markup.changed",
 				"punctuation.section.embedded.begin.php",
 				"punctuation.section.embedded.end.php",
 				"keyword.other.DML.sql",
 				"support.function.macro.julia",
-				"meta.symbol.clojure"
+				"meta.symbol.clojure",
+				"keyword.symbol.fsharp"
 			],
 			"settings": {
 				"foreground": "#d96629"
@@ -257,7 +261,8 @@
 				"support.constant.media",
 				"support.type.property-name.json",
 				"log.exceptiontype",
-				"constant.other.timestamp.yaml"
+				"constant.other.timestamp.yaml",
+				"entity.name.section.fsharp"
 			],
 			"settings": {
 				"foreground": "#70bf53"
@@ -294,7 +299,10 @@
 				"entity.name.type.namespace.cs",
 				"keyword.type.cs",
 				"entity.other.attribute-name.pseudo-class.css",
-				"entity.other.attribute-name.pseudo-element.css"
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.name.type.fsharp",
+				"entity.name.namespace.rust",
+				"keyword.operator.namespace.rust"
 			],
 			"settings": {
 				"foreground": "#ffffb4"
