@@ -8,13 +8,21 @@ interface tokenColour {
   scope: string[];
   settings: tokenColourSettings;
 }
-export const qd = {
+interface Theme {
+  name: string;
+  type: "dark" | "light";
+  colors: {
+    [attr: string]: string;
+  };
+  tokenColors: tokenColour[];
+}
+export const qd: Theme = {
   name: "Quantum Dark",
   type: "dark",
   colors: {},
   tokenColors: [],
 };
-export const ql = {
+export const ql: Theme = {
   name: "Quantum Light",
   type: "light",
   colors: {},
@@ -57,6 +65,6 @@ export function generateTokenColours(
 }
 
 export function generateColours(name: string, colour: string[]): void {
-  qd.colors[name] = colour[0];
-  ql.colors[name] = colour[1];
+  Object.assign(qd.colors, { [name]: colour[0] });
+  Object.assign(ql.colors, { [name]: colour[1] });
 }
