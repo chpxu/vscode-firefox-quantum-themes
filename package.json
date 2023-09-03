@@ -8,6 +8,9 @@
     "type": "git",
     "url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes"
   },
+  "scripts": {
+    "generate": "ts-node ./scripts/generate.ts"
+  },
   "license": "MIT",
   "icon": "icon.png",
   "keywords": [
@@ -42,8 +45,8 @@
     ]
   },
   "devDependencies": {
-    "@types/node": "^18.0.3",
-    "fs": "^0.0.1-security",
-    "typescript": "^4.7.4"
+    "@types/node": "^20.5.9",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1"
   }
 }
