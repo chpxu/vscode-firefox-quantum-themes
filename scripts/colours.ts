@@ -417,6 +417,8 @@ export const tokenColoursAttr = [
 
 // calling functions for these arrays
 //colors
+// Careful when rearranging, must also change orders of arrays
+// of coloursattr
 export const coloursarray = [
   tab_toolbar_background,
   body_background,

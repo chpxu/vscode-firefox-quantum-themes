@@ -1,18 +1,12 @@
 import * as fs from "fs";
-const path = require("node:path");
+import * as path from "node:path";
 import {
   coloursarray,
   coloursattr,
   tokenColoursAttr,
-  _252c333aa,
   coloursTokenArray,
-  highlight_red,
-  highlight_orange,
-  highlight_green,
   comment,
   content_color1,
-  highlight_yellow,
-  highlight_purple,
 } from "./colours";
 
 import { qd, ql, generateColours, generateTokenColours } from "./generator";
@@ -31,16 +25,16 @@ generateColours("editorBracketMatch.background", coloursarray[1]);
 generateColours("editorBracketMatch.border", comment);
 generateColours(
   "editorBracketHighlight.unexpectedBracket.foreground",
-  highlight_red
+  coloursTokenArray[3]
 );
-generateColours("editorBracketHighlight.foreground1", highlight_green);
+generateColours("editorBracketHighlight.foreground1", coloursTokenArray[6]);
 generateColours("editor.rangeHighlightBackground", ["#eb5568d9", "#ed2655d9"]);
 //Markdown/up specific
 //Italic
 generateTokenColours(
   "Italic Markup",
   ["markup.italic"],
-  highlight_red,
+  coloursTokenArray[3],
   ["", ""],
   "italic"
 );
@@ -48,7 +42,7 @@ generateTokenColours(
 generateTokenColours(
   "Bold Markup",
   ["markup.bold", "markup.bold string"],
-  highlight_red,
+  coloursTokenArray[3],
   ["", ""],
   "bold"
 );
@@ -56,7 +50,7 @@ generateTokenColours(
 generateTokenColours(
   "Underline Markup",
   ["markup.underline"],
-  highlight_red,
+  coloursTokenArray[3],
   ["", ""],
   "underline"
 );
@@ -64,7 +58,7 @@ generateTokenColours(
 generateTokenColours(
   "Strikethrough Markup",
   ["markup.strike"],
-  highlight_red,
+  coloursTokenArray[3],
   ["", ""],
   "strike"
 );
@@ -76,7 +70,7 @@ generateTokenColours(
     "string.other.link.description.title.markdown",
     "constant.other.reference.link.markdown",
   ],
-  highlight_red,
+  coloursTokenArray[3],
   ["", ""],
   ""
 );
@@ -99,7 +93,7 @@ generateTokenColours(
 generateTokenColours(
   "Markup Separator",
   ["meta.separator"],
-  highlight_purple,
+  coloursTokenArray[2],
   ["#00000050", "#00000050"],
   "bold"
 );
@@ -111,7 +105,7 @@ generateTokenColours(
 );
 
 // Making the files
-let paths: string[] = [
+const paths: string[] = [
   path.resolve(__dirname, "../themes/Quantum Dark.json"),
   path.resolve(__dirname, "../themes/Quantum Light.json"),
 ];

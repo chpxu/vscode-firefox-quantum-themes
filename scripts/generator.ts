@@ -8,13 +8,13 @@ interface tokenColour {
   scope: string[];
   settings: tokenColourSettings;
 }
-export let qd: any = {
+export const qd = {
   name: "Quantum Dark",
   type: "dark",
   colors: {},
   tokenColors: [],
 };
-export let ql: any = {
+export const ql = {
   name: "Quantum Light",
   type: "light",
   colors: {},
@@ -27,24 +27,24 @@ export function generateTokenColours(
   background?: string[],
   fontStyle?: string
 ): void {
-  let genericDark = {
+  const genericDark = {
     name: name,
     scope: scopes,
   };
-  let genericLight = {
+  const genericLight = {
     name: name,
     scope: scopes,
   };
 
-  let aTokenColourDark: tokenColour = Object.assign(genericDark, {
+  const aTokenColourDark: tokenColour = Object.assign(genericDark, {
     settings: { foreground: foreground[0] },
   });
-  let aTokenColourLight: tokenColour = Object.assign(genericLight, {
+  const aTokenColourLight: tokenColour = Object.assign(genericLight, {
     settings: { foreground: foreground[1] },
   });
   if (background !== undefined) {
-    let backgroundDark = background[0];
-    let backgroundLight = background[1];
+    const backgroundDark = background[0];
+    const backgroundLight = background[1];
     aTokenColourDark["settings"]["background"] = backgroundDark;
     aTokenColourLight["settings"]["background"] = backgroundLight;
   }
