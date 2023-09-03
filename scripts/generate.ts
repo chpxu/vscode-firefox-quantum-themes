@@ -107,7 +107,7 @@ generateTokenColours(
 generateTokenColours(
   "Nix configuration",
   ["entity.other.attribute-name.multipart.nix"],
-  ["#b6babf", "#585959"]
+  content_color1
 );
 
 // Making the files

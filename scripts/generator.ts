@@ -27,14 +27,19 @@ export function generateTokenColours(
   background?: string[],
   fontStyle?: string
 ): void {
-  let genericSetting = {
+  let genericDark = {
     name: name,
     scope: scopes,
   };
-  let aTokenColourDark: tokenColour = Object.assign(genericSetting, {
+  let genericLight = {
+    name: name,
+    scope: scopes,
+  };
+
+  let aTokenColourDark: tokenColour = Object.assign(genericDark, {
     settings: { foreground: foreground[0] },
   });
-  let aTokenColourLight: tokenColour = Object.assign(genericSetting, {
+  let aTokenColourLight: tokenColour = Object.assign(genericLight, {
     settings: { foreground: foreground[1] },
   });
   if (background !== undefined) {

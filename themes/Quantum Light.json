@@ -97,9 +97,7 @@
 				"constant.keyword.clojure"
 			],
 			"settings": {
-				"foreground": "#0088cc",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#0088cc"
 			}
 		},
 		{
@@ -154,9 +152,7 @@
 				"keyword.other.julia"
 			],
 			"settings": {
-				"foreground": "#b82ee5",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#b82ee5"
 			}
 		},
 		{
@@ -164,9 +160,6 @@
 			"scope": [
 				"constant.numeric",
 				"string",
-				"string.quoted.double.json",
-				"punctuation.definition.string",
-				"punctuation.support",
 				"constant.other.symbol",
 				"constant.other.key",
 				"entity.other.inherited-class",
@@ -176,13 +169,10 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js",
 				"entity.name.module.js",
 				"variable.import.parameter.js",
-				"variable.other.class.js",
-				"punctuation.support.type.property-name.json"
+				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#5b5fff",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#5b5fff"
 			}
 		},
 		{
@@ -201,9 +191,7 @@
 				"markup.deleted"
 			],
 			"settings": {
-				"foreground": "#ed2655",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#ed2655"
 			}
 		},
 		{
@@ -223,9 +211,7 @@
 				"meta.symbol.clojure"
 			],
 			"settings": {
-				"foreground": "#f13c00",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#f13c00"
 			}
 		},
 		{
@@ -237,9 +223,7 @@
 				"token.warn-token"
 			],
 			"settings": {
-				"foreground": "#d97e00",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#d97e00"
 			}
 		},
 		{
@@ -275,9 +259,7 @@
 				"constant.other.timestamp.yaml"
 			],
 			"settings": {
-				"foreground": "#2cbb0f",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#2cbb0f"
 			}
 		},
 		{
@@ -293,9 +275,7 @@
 				"text.bracketed"
 			],
 			"settings": {
-				"foreground": "#0072ab",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#0072ab"
 			}
 		},
 		{
@@ -316,9 +296,7 @@
 				"entity.other.attribute-name.pseudo-element.css"
 			],
 			"settings": {
-				"foreground": "#ffffb4",
-				"background": "",
-				"fontStyle": ""
+				"foreground": "#ffffb4"
 			}
 		},
 		{
@@ -417,7 +395,7 @@
 				"entity.other.attribute-name.multipart.nix"
 			],
 			"settings": {
-				"foreground": "#585959"
+				"foreground": "#292e33"
 			}
 		}
 	]

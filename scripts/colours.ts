@@ -259,9 +259,9 @@ export const tokenColoursAttr = [
       "constant.numeric",
       // Strings, Symbols, Inherited Classes, Markup Heading
       "string",
-      "string.quoted.double.json",
-      "punctuation.definition.string",
-      "punctuation.support",
+      // "string.quoted.double.json",
+      // "punctuation.definition.string",
+      // "punctuation.support",
       "constant.other.symbol",
       "constant.other.key",
       "entity.other.inherited-class",
@@ -275,7 +275,7 @@ export const tokenColoursAttr = [
       "variable.other.class.js",
       //["entity.name.method.js", "italic"], //temp for reminder
       //["source.js constant.other.object.key.js string.unquoted.label.js", "italic"],
-      "punctuation.support.type.property-name.json",
+      // "punctuation.support.type.property-name.json",
     ],
   },
   {
