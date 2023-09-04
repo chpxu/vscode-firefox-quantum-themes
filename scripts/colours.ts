@@ -46,7 +46,6 @@ export const highlight_yellow: string[] = ["#ffffb4", "#d97e00"];
 export const coloursattr: string[][] = [
   //#252c33
   [
-    "activityBarBadge.background",
     "editor.wordHighlightBorder",
     "editorIndentGuide.background",
     "input.background",
@@ -54,6 +53,8 @@ export const coloursattr: string[][] = [
     "list.activeBackground",
     "list.activeSelectionBackground",
     "list.focusBackground",
+    "button.background",
+    "extensionButton.background",
   ],
 
   //#14171a
@@ -64,6 +65,8 @@ export const coloursattr: string[][] = [
     "editorGroupHeader.tabsBackground",
     "sideBar.background",
     "statusBar.background",
+    "statusBar.offlineBackground",
+    "statusBar.noFolderBackground",
     "tab.inactiveBackground",
     "tab.border",
     "titleBar.activeBackground",
@@ -71,13 +74,24 @@ export const coloursattr: string[][] = [
   ],
 
   //#46afe3
-  ["activityBar.activeBorder", "terminal.ansiBlue"],
+  ["activityBar.activeBorder", "terminal.ansiBlue", "statusBar.focusBorder"],
 
   //#343c45
-  ["badge.background", "button.background", "focusBorder"],
+  [
+    "badge.background",
+    "focusBorder",
+    "statusBarItem.hoverBackground",
+    "activityBarBadge.background",
+  ],
 
   //#1d4f73
-  ["button.hoverBackground", "editor.selectionBackground"],
+
+  [
+    "button.hoverBackground",
+    "extensionButton.hoverBackground",
+    "editor.selectionBackground",
+    "statusBarItem.prominentHoverBackground",
+  ],
 
   //#181d20
   [
@@ -94,16 +108,24 @@ export const coloursattr: string[][] = [
 
   //#b6babf
   [
+    "foreground",
+    "list.activeSelectionForeground",
     "editor.foreground",
     "sideBarTitle.foreground",
     "sidebarSectionHeader.foreground",
     "statusBar.foreground",
+    "statusBar.offlineForeground",
     "titleBar.activeForeground",
     "terminal.ansiWhite",
+    "statusBarItem.foreground",
+    "button.foreground",
+    "extensionButton.foreground",
+    "statusBarItem.remoteForeground",
+    "icon.foreground",
   ],
 
   //#a9bacb
-  ["editorBracketMatch.border"],
+  ["editorBracketMatch.border", "activityBar.foreground"],
 
   //#ffffb4
   ["editorCursor.foreground", "terminal.ansiYellow"],
@@ -118,9 +140,9 @@ export const coloursattr: string[][] = [
   //#70bf53
   ["terminal.ansiGreen"],
   //#eb5368
-  ["terminal.ansiRed"],
+  ["terminal.ansiRed", "statusBarItem.errorBackground"],
   //#d96629
-  ["terminal.ansiBrightRed"],
+  ["terminal.ansiBrightRed", "statusBarItem.warningBackground"],
 ];
 //colors which aren't in the standard list of colours
 //#252c33aa
@@ -453,6 +475,7 @@ export const coloursarray = [
   highlight_pink,
   highlight_lightorange,
   highlight_bluegrey,
+  body_color,
 ];
 
 export const coloursTokenArray = [

@@ -15,6 +15,7 @@ Wow, it finally happened after 1 year.
 
 ### Updates
 
+- Updated [README.md](./README.md)
 - `DIFFERENCES.md` keeps track of known differences with current devtools alongside any reasoning/ways forward
 - Added `editor.rangeHighlightBackground`
 - Added support for `.nix` files
@@ -23,6 +24,9 @@ Wow, it finally happened after 1 year.
 - Added limited support for `F#`. Tested with the extension `Ionide for F#: ionide.ionide-fsharp`.
 - Added support for Rust (via `rust-lang.rust-analyzer`) keywords and namespaces.
 - Added limited support for other various inbuilt languages. Everything else is mostly the same.
+- Improved theming for the status bar: debuggging, status items etc.
+- No white text on light theme
+- Buttons and badges match active theme.
 
 ## 1.2.0
 

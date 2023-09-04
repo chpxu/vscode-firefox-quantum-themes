@@ -21,12 +21,18 @@ coloursattr.forEach(function (element, index) {
 tokenColoursAttr.forEach(function (element, index) {
   generateTokenColours(element.name, element.scope, coloursTokenArray[index]);
 });
+
 generateColours("editorBracketMatch.background", coloursarray[1]);
 generateColours("editorBracketMatch.border", comment);
 generateColours(
   "editorBracketHighlight.unexpectedBracket.foreground",
   coloursTokenArray[3]
 );
+generateColours("activityBarBadge.background", coloursarray[0]);
+generateColours("activityBarBadge.foreground", [
+  coloursarray[6][0],
+  coloursarray[7][1],
+]);
 generateColours("editorBracketHighlight.foreground1", coloursTokenArray[6]);
 generateColours("editor.rangeHighlightBackground", ["#eb5568d9", "#ed2655d9"]);
 //Markdown/up specific
@@ -70,9 +76,7 @@ generateTokenColours(
     "string.other.link.description.title.markdown",
     "constant.other.reference.link.markdown",
   ],
-  coloursTokenArray[3],
-  ["", ""],
-  ""
+  coloursTokenArray[3]
 );
 // Markup quote
 generateTokenColours(
