@@ -5,7 +5,7 @@
 		"activityBar.activeBorder": "#0088cc",
 		"activityBar.background": "#f7f7f7",
 		"activityBar.foreground": "#292e33",
-		"activityBarBadge.background": "#ebeced",
+		"activityBarBadge.background": "#f0f1f2",
 		"activityBarBadge.foreground": "#292e33",
 		"badge.background": "#f0f1f2",
 		"button.background": "#ebeced",
@@ -18,13 +18,15 @@
 		"editor.lineHighlightBackground": "#f7f7f7",
 		"editor.rangeHighlightBackground": "#ed2655d9",
 		"editor.selectionBackground": "#4c9ed9",
+		"editor.selectionForeground": "#f5f7fa",
 		"editor.wordHighlightBorder": "#ebeced",
-		"editorBracketHighlight.foreground1": "#2cbb0f",
-		"editorBracketHighlight.unexpectedBracket.foreground": "#ed2655",
+		"editorBracketHighlight.foreground": "#2cbb0f",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#f0f1f2",
 		"editorBracketMatch.background": "#fcfcfc",
-		"editorBracketMatch.border": "#747573",
+		"editorBracketMatch.border": "#292e33",
 		"editorCursor.foreground": "#d97e00",
 		"editorGroupHeader.tabsBackground": "#f7f7f7",
+		"editorIndentGuide.activeBackground": "#252c33aa",
 		"editorIndentGuide.background": "#ebeced",
 		"editorWidget.background": "#f7f7f7",
 		"extensionButton.background": "#ebeced",
@@ -41,6 +43,7 @@
 		"list.hoverBackground": "#ebeced",
 		"list.inactiveSelectionBackground": "#f7f7f7",
 		"panel.background": "#f7f7f7",
+		"scrollbarSlider.background": "#252c33aa",
 		"sideBar.background": "#f7f7f7",
 		"sideBarSectionHeader.background": "#f7f7f7",
 		"sideBarTitle.foreground": "#585959",
@@ -304,7 +307,7 @@
 			}
 		},
 		{
-			"name": "highlighted_yellow",
+			"name": "highlight_yellow",
 			"scope": [
 				"entity.name.namespace.rust",
 				"entity.name.type.anchor.yaml ",
@@ -334,7 +337,6 @@
 			],
 			"settings": {
 				"foreground": "#ed2655",
-				"background": "",
 				"fontStyle": "italic"
 			}
 		},
@@ -346,7 +348,6 @@
 			],
 			"settings": {
 				"foreground": "#ed2655",
-				"background": "",
 				"fontStyle": "bold"
 			}
 		},
@@ -357,7 +358,6 @@
 			],
 			"settings": {
 				"foreground": "#ed2655",
-				"background": "",
 				"fontStyle": "underline"
 			}
 		},
@@ -368,7 +368,6 @@
 			],
 			"settings": {
 				"foreground": "#ed2655",
-				"background": "",
 				"fontStyle": "strike"
 			}
 		},
@@ -390,7 +389,6 @@
 			],
 			"settings": {
 				"foreground": "#747573",
-				"background": "",
 				"fontStyle": "italic"
 			}
 		},

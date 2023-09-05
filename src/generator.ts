@@ -1,21 +1,4 @@
-interface tokenColourSettings {
-  foreground: string;
-  background?: string;
-  fontStyle?: string;
-}
-interface tokenColour {
-  name: string;
-  scope: string[];
-  settings: tokenColourSettings;
-}
-interface Theme {
-  name: string;
-  type: "dark" | "light";
-  colors: {
-    [attr: string]: string;
-  };
-  tokenColors: tokenColour[];
-}
+import { tokenColour, Theme } from "./Types";
 export const qd: Theme = {
   name: "Quantum Dark",
   type: "dark",
@@ -32,8 +15,8 @@ export function generateTokenColours(
   name: string,
   scopes: string[],
   foreground: string[],
-  background?: string[],
-  fontStyle?: string
+  fontStyle?: string,
+  background?: string[]
 ): void {
   const genericDark = {
     name: name,

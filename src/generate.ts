@@ -1,13 +1,7 @@
 import * as fs from "fs";
 import * as path from "node:path";
-import {
-  coloursarray,
-  coloursattr,
-  tokenColoursAttr,
-  coloursTokenArray,
-  comment,
-  content_color1,
-} from "./colours";
+import { highlight_colors, all_colours } from "./colours";
+import { colors_scopes, tokenColoursAttr } from "./scopes";
 
 import { qd, ql, generateColours, generateTokenColours } from "./generator";
 
@@ -29,69 +23,73 @@ function sortAlphabetically(keys: { [attr: string]: string }): {
 }
 
 // Generate colors
-coloursattr.forEach(function (element, index) {
-  element.forEach(function (attr) {
-    generateColours(attr, coloursarray[index]);
+// Nested loop since colors_scopes is an array of objects
+colors_scopes.forEach((element) => {
+  element.scope.forEach((scope) => {
+    generateColours(scope, all_colours[element.name]);
   });
 });
 
 // Generate tokenColors
-tokenColoursAttr.forEach(function (element, index) {
-  generateTokenColours(element.name, element.scope, coloursTokenArray[index]);
+tokenColoursAttr.forEach(function (element) {
+  generateTokenColours(
+    element.name,
+    element.scope,
+    highlight_colors[element.name]
+  );
 });
-// === BEGIN GENERATION OF CUSTOM COLOURS ===
 
-generateColours("editorBracketMatch.background", coloursarray[1]);
-generateColours("editorBracketMatch.border", comment);
-generateColours(
-  "editorBracketHighlight.unexpectedBracket.foreground",
-  coloursTokenArray[3]
-);
-generateColours("activityBarBadge.background", coloursarray[0]);
+// === BEGIN GENERATION OF CUSTOM COLOURS ===
 generateColours("activityBarBadge.foreground", [
-  coloursarray[6][0],
-  coloursarray[7][1],
+  all_colours.body_color_alt[0],
+  all_colours.content_color1[1],
 ]);
-generateColours("editorBracketHighlight.foreground1", coloursTokenArray[6]);
 generateColours("editor.rangeHighlightBackground", ["#eb5568d9", "#ed2655d9"]);
 // Correct Editor theming
-generateColours("sideBar.background", [coloursarray[1][0], coloursarray[5][1]]);
-generateColours("activityBar.background", [
-  coloursarray[1][0],
-  coloursarray[5][1],
+generateColours("sideBar.background", [
+  all_colours.body_background[0],
+  all_colours.sidebar_background[1],
 ]);
-generateColours("editor.background", [coloursarray[5][0], coloursarray[1][1]]);
+generateColours("activityBar.background", [
+  all_colours.body_background[0],
+  all_colours.sidebar_background[1],
+]);
+generateColours("editor.background", [
+  all_colours.sidebar_background[0],
+  all_colours.body_background[1],
+]);
+generateColours("editorIndentGuide.activeBackground", [
+  "#252c33aa",
+  "#252c33aa",
+]);
+generateColours("scrollbarSlider.background", ["#252c33aa", "#252c33aa"]);
 //Markdown/up specific
 //Italic
 generateTokenColours(
   "Italic Markup",
   ["markup.italic"],
-  coloursTokenArray[3],
-  ["", ""],
+  all_colours.highlight_red,
   "italic"
 );
 //Bold markup
 generateTokenColours(
   "Bold Markup",
   ["markup.bold", "markup.bold string"],
-  coloursTokenArray[3],
-  ["", ""],
+  all_colours.highlight_red,
   "bold"
 );
 ///underlined markup
 generateTokenColours(
   "Underline Markup",
   ["markup.underline"],
-  coloursTokenArray[3],
-  ["", ""],
+  all_colours.highlight_red,
   "underline"
 );
 //Strikethrough markup
 generateTokenColours(
   "Strikethrough Markup",
   ["markup.strike"],
-  coloursTokenArray[3],
-  ["", ""],
+  all_colours.highlight_red,
   "strike"
 );
 //link and link anchor markup
@@ -102,14 +100,13 @@ generateTokenColours(
     "string.other.link.description.title.markdown",
     "constant.other.reference.link.markdown",
   ],
-  coloursTokenArray[3]
+  all_colours.highlight_red
 );
 // Markup quote
 generateTokenColours(
   "Markup Quotes",
   ["markup.quote"],
-  comment,
-  ["", ""],
+  all_colours.comment,
   "italic"
 );
 
@@ -117,27 +114,27 @@ generateTokenColours(
 generateTokenColours(
   "Comments",
   ["comment", "punctuation.definition.comment"],
-  comment
+  all_colours.comment
 );
 //Markup Separators
 generateTokenColours(
   "Markup Separator",
   ["meta.separator"],
-  coloursTokenArray[2],
-  ["#00000050", "#00000050"],
-  "bold"
+  all_colours.highlight_purple,
+  "bold",
+  ["#00000050", "#00000050"]
 );
 
 generateTokenColours(
   "Nix configuration",
   ["entity.other.attribute-name.multipart.nix"],
-  content_color1
+  all_colours.content_color1
 );
 
 generateTokenColours(
   "ES7 Bind Operator",
   ["source.js constant.other.object.key.js string.unquoted.label.js"],
-  coloursTokenArray[2]
+  all_colours.highlight_purple
 );
 // === END COLOUR GENERATION ===
 

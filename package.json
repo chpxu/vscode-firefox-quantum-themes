@@ -3,14 +3,14 @@
   "displayName": "Firefox Quantum Themes",
   "description": "Themes for VSCode, based off Firefox Quantum DevTools.",
   "version": "2.0.0",
-  "publisher": "beastdestroyer",
+  "publisher": "chpxu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes"
+    "url": "https://github.com/chpxu/vscode-firefox-quantum-themes"
   },
   "scripts": {
-    "generate": "ts-node ./scripts/generate.ts",
-    "lint": "yarn run eslint ./scripts"
+    "generate": "ts-node ./src/generate.ts",
+    "lint": "yarn run eslint ./src"
   },
   "license": "MIT",
   "icon": "icon.png",
