@@ -11,6 +11,23 @@ import {
 
 import { qd, ql, generateColours, generateTokenColours } from "./generator";
 
+// Function to alphabetically sort
+// Get array of keys, sort, then reduce
+function sortAlphabetically(keys: { [attr: string]: string }): {
+  [attr: string]: string;
+} {
+  let sorted = Object.keys(keys)
+    .sort()
+    .reduce(
+      (attr, key) => ({
+        ...attr,
+        [key]: keys[key],
+      }),
+      {}
+    );
+  return sorted;
+}
+
 coloursattr.forEach(function (element, index) {
   element.forEach(function (attr) {
     generateColours(attr, coloursarray[index]);
@@ -108,11 +125,30 @@ generateTokenColours(
   content_color1
 );
 
+generateTokenColours(
+  "ES7 Bind Operator",
+  ["source.js constant.other.object.key.js string.unquoted.label.js"],
+  coloursTokenArray[2]
+);
 // Making the files
 const paths: string[] = [
   path.resolve(__dirname, "../themes/Quantum Dark.json"),
   path.resolve(__dirname, "../themes/Quantum Light.json"),
 ];
 
+// === Final post-processing ===
+// Alphabetical sort of all attributes
+let qd_colors_sorted = sortAlphabetically(qd.colors);
+qd.colors = qd_colors_sorted;
+let ql_colors_sorted = sortAlphabetically(ql.colors);
+ql.colors = ql_colors_sorted;
+
+qd.tokenColors.forEach((obj) => {
+  obj.scope = obj.scope.sort();
+});
+ql.tokenColors.forEach((obj) => {
+  obj.scope = obj.scope.sort();
+});
+// console.log(qd_colors_sorted);
 fs.writeFileSync(paths[0], JSON.stringify(qd, null, "\t"));
 fs.writeFileSync(paths[1], JSON.stringify(ql, null, "\t"));
