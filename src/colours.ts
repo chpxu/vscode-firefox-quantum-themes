@@ -4,7 +4,6 @@
 // but without the "--theme" and all hyphens replaced with underscores
 // All colours in the form of an array with [dark colour, light colour]
 // https://stackoverflow.com/questions/13612006/get-object-property-name-as-a-string
-import { colors_scopes } from "./scopes";
 import { Colour, Colours } from "./Types";
 
 export function key_name<T extends object>(
@@ -65,21 +64,3 @@ export const all_colours: Colours = {
   ...text_colours,
   ...highlight_colors,
 };
-
-// let length = colors_scopes.length;
-// let objKeys: string[] = [];
-// for (const key in all_colours) {
-//   objKeys.push(key);
-// }
-
-// for (let i = 0; i < length; i++) {
-//   let attribute: Colour = {
-//     name: objKeys[i],
-//     scope: colors_scopes[i],
-//   };
-//   coloursAttr.push(attribute);
-// }
-
-// console.log(all_colours);
-// console.log(objKeys);
-// console.log(coloursAttr);
