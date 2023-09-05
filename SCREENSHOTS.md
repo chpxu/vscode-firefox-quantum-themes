@@ -1,52 +1,72 @@
 ## Screenshots:
 
-Here are the latest screenshots of this theme. This is in the layout of `Dark` on the left and `Light` on the right
-Please note, the code presented here is 100% not mine, and was manually typed out from google images. If you recognise a piece of code which you do not want to be displayed, please let me know and I will edit the screenshot.
+Here are the latest screenshots of this theme. This is in the layout of `Dark` on the right and `Light` on the left.
+Please note, the code presented here is 100% not mine, and was copied from open-source projects. All sources to these projects have been credited.
 
-Batch\
-![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/bat.png)
+### Batch
 
-C\
-![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/c.png)
+![Batch Screenshot](./screenshots/bat.png)
 
-C++\
-![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
+[Batch code source](https://github.com/Archive-projects/Batch-File-examples/blob/master/files/tf5.bat)
 
-C#\
-![C# Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
+### C
 
-CSS\
-![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/css.png)
+![C Screenshot](./screenshots/c.png)
 
-Clojure\
-![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/clojure.png)
+### C++
 
-CoffeeScript\
-![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/coffee.png)
+![C++ Screenshot](./screenshots/cpp.png)
 
-Dart\
-![Dart Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dart.png)
+### C#
 
-HTML\
-![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/html.png)
+![C# Screenshot](./screenshots/cpp.png)
 
-JSON/C\
-![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/json.png)
+[C# code source](https://github.com/dockersamples/example-voting-app/blob/main/worker/Program.cs)
 
-JavaScript/React\
-![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/js.png)
+### CSS
 
-Markdown\
-![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/md.png)
+![CSS Screenshot](./screenshots/css.png)
 
-PHP\
-![PHP Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/php.png)
+### Clojure
 
-SCSS\
-![SCSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/scss.png)
+![Clojure Screenshot](./screenshots/clojure.png)
 
-SQL\
-![SQL Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/sql.png)
+### CoffeeScript
 
-TypeScript/React\
-![TypeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/ts.png)
+![CoffeeScript Screenshot](./screenshots/coffee.png)
+
+### Dart
+
+![Dart Screenshot](./screenshots/dart.png)
+
+### HTML
+
+![HTML Screenshot](./screenshots/html.png)
+
+### JSON/C
+
+![JSON Screenshot](./screenshots/json.png)
+
+### JavaScript/React
+
+![JavaScript Screenshot](./screenshots/js.png)
+
+### Markdown
+
+![Markdown Screenshot](./screenshots/md.png)
+
+### PHP
+
+![PHP Screenshot](./screenshots/php.png)
+
+### SCSS
+
+![SCSS Screenshot](./screenshots/scss.png)
+
+### SQL
+
+![SQL Screenshot](./screenshots/sql.png)
+
+### TypeScript/React
+
+![TypeScript Screenshot](./screenshots/ts.png)

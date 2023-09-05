@@ -28,16 +28,18 @@ function sortAlphabetically(keys: { [attr: string]: string }): {
   return sorted;
 }
 
+// Generate colors
 coloursattr.forEach(function (element, index) {
   element.forEach(function (attr) {
     generateColours(attr, coloursarray[index]);
   });
 });
 
-//tokenColors
+// Generate tokenColors
 tokenColoursAttr.forEach(function (element, index) {
   generateTokenColours(element.name, element.scope, coloursTokenArray[index]);
 });
+// === BEGIN GENERATION OF CUSTOM COLOURS ===
 
 generateColours("editorBracketMatch.background", coloursarray[1]);
 generateColours("editorBracketMatch.border", comment);
@@ -130,6 +132,8 @@ generateTokenColours(
   ["source.js constant.other.object.key.js string.unquoted.label.js"],
   coloursTokenArray[2]
 );
+// === END COLOUR GENERATION ===
+
 // Making the files
 const paths: string[] = [
   path.resolve(__dirname, "../themes/Quantum Dark.json"),
@@ -149,6 +153,7 @@ qd.tokenColors.forEach((obj) => {
 ql.tokenColors.forEach((obj) => {
   obj.scope = obj.scope.sort();
 });
-// console.log(qd_colors_sorted);
+
+// Write theme files to ./themes
 fs.writeFileSync(paths[0], JSON.stringify(qd, null, "\t"));
 fs.writeFileSync(paths[1], JSON.stringify(ql, null, "\t"));

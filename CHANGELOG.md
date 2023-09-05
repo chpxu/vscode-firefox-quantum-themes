@@ -12,6 +12,7 @@ Wow, it finally happened after 1 year.
   - Created function logic to generate `tokenColors` and `colors`.
 - ESLint to lint the TS files. Currently default settings (`recommended`).
 - Added `direnv` and `nix` files for development.
+- Alphabetical sort of all entries (and consequently means every scope in one tokenColor is sorted by category)
 
 ### Updates
 
@@ -23,10 +24,11 @@ Wow, it finally happened after 1 year.
 - Added support for `dockerfile` via the extension `jeff-hykin.better-dockerfile-syntax`.
 - Added limited support for `F#`. Tested with the extension `Ionide for F#: ionide.ionide-fsharp`.
 - Added support for Rust (via `rust-lang.rust-analyzer`) keywords and namespaces.
-- Added limited support for other various inbuilt languages. Everything else is mostly the same.
+- Improved support for other various inbuilt languages. Everything else is mostly the same.
 - Improved theming for the status bar: debuggging, status items etc.
-- No white text on light theme
+- No white text on light theme.
 - Buttons and badges match active theme.
+- Updated screenshots.
 
 ## 1.2.0
 
