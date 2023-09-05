@@ -41,6 +41,44 @@ export const highlight_green: string[] = ["#70bf53", "#2cbb0f"];
 export const highlight_bluegrey: string[] = ["#5e88b0", "#0072ab"];
 export const highlight_yellow: string[] = ["#ffffb4", "#d97e00"];
 
+// calling functions for these arrays
+//colors
+// Careful when rearranging, must also change orders of arrays
+// of coloursattr
+export const coloursarray = [
+  tab_toolbar_background,
+  body_background,
+  highlight_blue,
+  toolbar_background,
+  selection_background,
+  sidebar_background,
+  body_color_alt,
+  content_color1,
+  highlight_yellow,
+  contrast_background,
+  selection_color,
+  highlight_purple,
+  highlight_green,
+  highlight_red,
+  highlight_orange,
+  highlight_pink,
+  highlight_lightorange,
+  highlight_bluegrey,
+  body_color,
+];
+
+export const coloursTokenArray = [
+  highlight_blue,
+  highlight_pink,
+  highlight_purple,
+  highlight_red,
+  highlight_orange,
+  highlight_lightorange,
+  highlight_green,
+  highlight_bluegrey,
+  highlight_yellow,
+];
+
 /*===Generating items in "colors"  {}===*/
 // colors using tab_toolbar_background
 export const coloursattr: string[][] = [
@@ -59,18 +97,11 @@ export const coloursattr: string[][] = [
 
   //#14171a
   [
-    "activityBar.background",
-    "dropdown.background",
-    "editor.lineHighlightBackground",
-    "editorGroupHeader.tabsBackground",
-    "sideBar.background",
-    "statusBar.background",
-    "statusBar.offlineBackground",
-    "statusBar.noFolderBackground",
     "tab.inactiveBackground",
     "tab.border",
     "titleBar.activeBackground",
     "terminal.ansiBlack",
+    "tab.unfocusedHoverBackground",
   ],
 
   //#46afe3
@@ -96,14 +127,19 @@ export const coloursattr: string[][] = [
   //#181d20
   [
     "debugToolBar.background",
-    "editor.background",
     "editorWidget.background",
     "list.inactiveSelectionBackground",
-    "panel.background",
     "sideBarSectionHeader.background",
     "tab.focusedHoverBackground",
-    "tab.unfocusedHoverBackground",
     "titleBar.inactiveBackground",
+    "dropdown.background",
+    "editor.lineHighlightBackground",
+    "statusBar.background",
+    "statusBar.offlineBackground",
+    "statusBar.noFolderBackground",
+    "panel.background",
+    "editorGroupHeader.tabsBackground",
+    "tab.inactiveBackground",
   ],
 
   //#b6babf
@@ -450,42 +486,4 @@ export const tokenColoursAttr = [
       "keyword.operator.namespace.rust",
     ],
   },
-];
-
-// calling functions for these arrays
-//colors
-// Careful when rearranging, must also change orders of arrays
-// of coloursattr
-export const coloursarray = [
-  tab_toolbar_background,
-  body_background,
-  highlight_blue,
-  toolbar_background,
-  selection_background,
-  sidebar_background,
-  body_color_alt,
-  content_color1,
-  highlight_yellow,
-  contrast_background,
-  selection_color,
-  highlight_purple,
-  highlight_green,
-  highlight_red,
-  highlight_orange,
-  highlight_pink,
-  highlight_lightorange,
-  highlight_bluegrey,
-  body_color,
-];
-
-export const coloursTokenArray = [
-  highlight_blue,
-  highlight_pink,
-  highlight_purple,
-  highlight_red,
-  highlight_orange,
-  highlight_lightorange,
-  highlight_green,
-  highlight_bluegrey,
-  highlight_yellow,
 ];

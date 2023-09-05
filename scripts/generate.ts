@@ -54,6 +54,13 @@ generateColours("activityBarBadge.foreground", [
 ]);
 generateColours("editorBracketHighlight.foreground1", coloursTokenArray[6]);
 generateColours("editor.rangeHighlightBackground", ["#eb5568d9", "#ed2655d9"]);
+// Correct Editor theming
+generateColours("sideBar.background", [coloursarray[1][0], coloursarray[5][1]]);
+generateColours("activityBar.background", [
+  coloursarray[1][0],
+  coloursarray[5][1],
+]);
+generateColours("editor.background", [coloursarray[5][0], coloursarray[1][1]]);
 //Markdown/up specific
 //Italic
 generateTokenColours(
