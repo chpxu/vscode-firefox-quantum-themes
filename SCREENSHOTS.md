@@ -13,6 +13,8 @@ Please note, the code presented here is 100% not mine, and was copied from open-
 
 ![C Screenshot](./screenshots/c.png)
 
+[C code source](https://github.com/TalMizrahii/Hangman-game/blob/main/Hangman.c)
+
 ### C++
 
 ![C++ Screenshot](./screenshots/cpp.png)
@@ -27,25 +29,49 @@ Please note, the code presented here is 100% not mine, and was copied from open-
 
 ![CSS Screenshot](./screenshots/css.png)
 
+Source: original.
+
 ### Clojure
 
 ![Clojure Screenshot](./screenshots/clojure.png)
+
+[Clojure code source](https://github.com/kenreilly/clojure-example/blob/master/src/clojure_example/core.clj)
 
 ### CoffeeScript
 
 ![CoffeeScript Screenshot](./screenshots/coffee.png)
 
+[CoffeeScript code source](https://github.com/jashkenas/coffeescript/blob/main/src/lexer.coffee)
+
 ### Dart
 
 ![Dart Screenshot](./screenshots/dart.png)
+
+[Dart code source](https://github.com/dart-lang/samples/blob/main/isolates/bin/long_running_isolate.dart)
+
+### Dockerfile
+
+![Dockerfile Screenshot](./screenshots/dockerfile.png)
+
+[Dart code source](https://github.com/dockersamples/example-voting-app/blob/main/worker/Dockerfile)
+
+### F#
+
+![F# Screenshot](./screenshots/fsharp.png)
+
+[F# code source](https://github.com/bigby-the-wolf/WebApiTest/blob/master/WebApiTest.Domain/Operations/AccountOperations.fs)
 
 ### HTML
 
 ![HTML Screenshot](./screenshots/html.png)
 
+Source: original.
+
 ### JSON/C
 
 ![JSON Screenshot](./screenshots/json.png)
+
+Source: my VSCode settings.
 
 ### JavaScript/React
 
