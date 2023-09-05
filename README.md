@@ -8,13 +8,13 @@ The Firefox Quantum Themes for [Visual Studio Code](https://code.visualstudio.co
 
 ![Firefox Quantum Light](./screenshots/light-ui.png)
 
-For syntax highlighting, see [SCREENSHOTS.md](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/SCREENSHOTS.md)
+For some syntax highlighting examples, see [SCREENSHOTS.md](./SCREENSHOTS.md)
 
 ### Supported Languages
 
 By "supported languages", I mean languages where the syntax highlighting doesn't look (too) terrible and is readable.
 
-- Batch/Shell/PowerShell
+- Batch/Shell/PowerShell/conf
 - C/C++/C# (with their respective extensions)
 - Clojure
 - CoffeeScript
@@ -29,6 +29,8 @@ By "supported languages", I mean languages where the syntax highlighting doesn't
 - JavaScript
 - JSON/C
 - JSX
+- Julia
+- Lua
 - Nix (with `jnoortheen.nix-ide`)
 - PHP
 - Pug
@@ -36,7 +38,7 @@ By "supported languages", I mean languages where the syntax highlighting doesn't
 - Ruby
 - Rust (via `rust-lang.rust-analyzer`)
 - SQL
-- TeX/LaTeX (with extension `james-yu.latex-workshop`)
+- TeX/LaTeX/BiBTeX (with extension `james-yu.latex-workshop`)
 - TOML (with extension `tamasfe.even-better-toml`)
 - TypeScript
 - Vue (with extension `vue.volar`)

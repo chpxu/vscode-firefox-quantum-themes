@@ -1,6 +1,7 @@
 ## Screenshots:
 
-Here are the latest screenshots of this theme. This is in the layout of `Dark` on the right and `Light` on the left.
+Here are some screenshots of this theme.
+
 Please note, the code presented here is 100% not mine, and was copied from open-source projects. All sources to these projects have been credited.
 
 ### Batch
@@ -61,6 +62,12 @@ Source: original.
 
 [F# code source](https://github.com/bigby-the-wolf/WebApiTest/blob/master/WebApiTest.Domain/Operations/AccountOperations.fs)
 
+### Go
+
+![Go Screenshot](./screenshots/go.png)
+
+[Go code source](https://github.com/golang/example/blob/master/hello/hello.go)
+
 ### HTML
 
 ![HTML Screenshot](./screenshots/html.png)
@@ -73,17 +80,29 @@ Source: original.
 
 Source: my VSCode settings.
 
-### JavaScript/React
+### JavaScript
 
 ![JavaScript Screenshot](./screenshots/js.png)
+
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:JavaScript_code.png)
 
 ### Markdown
 
 ![Markdown Screenshot](./screenshots/md.png)
 
+Source: original.
+
 ### PHP
 
 ![PHP Screenshot](./screenshots/php.png)
+
+Source: unknown.
+
+### Python
+
+![Python Screenshot](./screenshots/python.png)
+
+Source: from my Physics research project.
 
 ### SCSS
 
@@ -96,3 +115,5 @@ Source: my VSCode settings.
 ### TypeScript/React
 
 ![TypeScript Screenshot](./screenshots/ts.png)
+
+Source: this repository: `./src/colours.ts`.
