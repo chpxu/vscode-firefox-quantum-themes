@@ -30,6 +30,7 @@ By "supported languages", I mean languages where the syntax highlighting doesn't
 - JSON/C
 - JSX
 - Julia
+- LAMMPS (with `thfriedrich.lammps`)
 - Lua
 - Nix (with `jnoortheen.nix-ide`)
 - PHP
