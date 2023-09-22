@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "noImplicitReturns": true,
+      "alwaysStrict": true,
+      "strictNullChecks": true,
+      "allowUnreachableCode": false,
+      "exactOptionalPropertyTypes": true
+    }
+}

@@ -1,52 +1,119 @@
 ## Screenshots:
 
-Here are the latest screenshots of this theme. This is in the layout of `Dark` on the left and `Light` on the right
-Please note, the code presented here is 100% not mine, and was manually typed out from google images. If you recognise a piece of code which you do not want to be displayed, please let me know and I will edit the screenshot.
+Here are some screenshots of this theme.
 
-Batch\
-![Batch Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/bat.png)
+Please note, the code presented here is 100% not mine, and was copied from open-source projects. All sources to these projects have been credited.
 
-C\
-![C Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/c.png)
+### Batch
 
-C++\
-![C++ Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
+![Batch Screenshot](./screenshots/bat.png)
 
-C#\
-![C# Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/cpp.png)
+[Batch code source](https://github.com/Archive-projects/Batch-File-examples/blob/master/files/tf5.bat)
 
-CSS\
-![CSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/css.png)
+### C
 
-Clojure\
-![Clojure Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/clojure.png)
+![C Screenshot](./screenshots/c.png)
 
-CoffeeScript\
-![CoffeeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/coffee.png)
+[C code source](https://github.com/TalMizrahii/Hangman-game/blob/main/Hangman.c)
 
-Dart\
-![Dart Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/dart.png)
+### C++
 
-HTML\
-![HTML Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/html.png)
+![C++ Screenshot](./screenshots/cpp.png)
 
-JSON/C\
-![JSON Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/json.png)
+### C#
 
-JavaScript/React\
-![JavaScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/js.png)
+![C# Screenshot](./screenshots/cpp.png)
 
-Markdown\
-![Markdown Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/md.png)
+[C# code source](https://github.com/dockersamples/example-voting-app/blob/main/worker/Program.cs)
 
-PHP\
-![PHP Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/php.png)
+### CSS
 
-SCSS\
-![SCSS Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/scss.png)
+![CSS Screenshot](./screenshots/css.png)
 
-SQL\
-![SQL Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/sql.png)
+Source: original.
 
-TypeScript/React\
-![TypeScript Screenshot](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/blob/master/screenshots/ts.png)
+### Clojure
+
+![Clojure Screenshot](./screenshots/clojure.png)
+
+[Clojure code source](https://github.com/kenreilly/clojure-example/blob/master/src/clojure_example/core.clj)
+
+### CoffeeScript
+
+![CoffeeScript Screenshot](./screenshots/coffee.png)
+
+[CoffeeScript code source](https://github.com/jashkenas/coffeescript/blob/main/src/lexer.coffee)
+
+### Dart
+
+![Dart Screenshot](./screenshots/dart.png)
+
+[Dart code source](https://github.com/dart-lang/samples/blob/main/isolates/bin/long_running_isolate.dart)
+
+### Dockerfile
+
+![Dockerfile Screenshot](./screenshots/dockerfile.png)
+
+[Dart code source](https://github.com/dockersamples/example-voting-app/blob/main/worker/Dockerfile)
+
+### F#
+
+![F# Screenshot](./screenshots/fsharp.png)
+
+[F# code source](https://github.com/bigby-the-wolf/WebApiTest/blob/master/WebApiTest.Domain/Operations/AccountOperations.fs)
+
+### Go
+
+![Go Screenshot](./screenshots/go.png)
+
+[Go code source](https://github.com/golang/example/blob/master/hello/hello.go)
+
+### HTML
+
+![HTML Screenshot](./screenshots/html.png)
+
+Source: original.
+
+### JSON/C
+
+![JSON Screenshot](./screenshots/json.png)
+
+Source: my VSCode settings.
+
+### JavaScript
+
+![JavaScript Screenshot](./screenshots/js.png)
+
+Source: [Wikipedia](https://commons.wikimedia.org/wiki/File:JavaScript_code.png)
+
+### Markdown
+
+![Markdown Screenshot](./screenshots/md.png)
+
+Source: original.
+
+### PHP
+
+![PHP Screenshot](./screenshots/php.png)
+
+Source: unknown.
+
+### Python
+
+![Python Screenshot](./screenshots/python.png)
+
+Source: from my Physics research project.
+
+### SCSS
+
+![SCSS Screenshot](./screenshots/scss.png)
+
+### SQL
+
+![SQL Screenshot](./screenshots/sql.png)
+
+### TypeScript/React
+
+![TypeScript Screenshot](./screenshots/ts.png)
+
+Source: this repository: `./src/colours.ts`.

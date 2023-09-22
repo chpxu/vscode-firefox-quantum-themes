@@ -2,11 +2,15 @@
   "name": "firefox-quantum-themes",
   "displayName": "Firefox Quantum Themes",
   "description": "Themes for VSCode, based off Firefox Quantum DevTools.",
-  "version": "1.2.0",
-  "publisher": "beastdestroyer",
+  "version": "2.0.0",
+  "publisher": "chpxu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/beastdestroyer/vscode-firefox-quantum-themes"
+    "url": "https://github.com/chpxu/vscode-firefox-quantum-themes"
+  },
+  "scripts": {
+    "generate": "ts-node ./src/generate.ts",
+    "lint": "yarn run eslint ./src"
   },
   "license": "MIT",
   "icon": "icon.png",
@@ -41,9 +45,14 @@
       }
     ]
   },
-  "__metadata": {
-    "id": "8beb05ad-9742-4210-acf0-4bb095b99e14",
-    "publisherDisplayName": "beastdestroyer",
-    "publisherId": "cb430ecf-bec2-43ca-873a-3bae150918ad"
+  "devDependencies": {
+    "@types/node": "^20.5.9",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "eslint": "^8.48.0"
   }
 }

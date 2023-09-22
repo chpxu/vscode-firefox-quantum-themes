@@ -1,13 +1,43 @@
 # Changelog
 
-Official Releases will be published when there are new versions. To see (beta changelogs)[] which are reset every update, and document betas. Both are sorted with latest at the top.
+Official Releases will be published when there are new versions. This changelog contains dev and stable updates. The stable chnagelog is a merger of all development updates.
+
+## 2.0.0
+
+Wow, it finally happened after 1 year.
+
+### Development
+
+- Development has moved to TypeScript! See [README](./README.md) for more details. Theme files are now generated at the run of a command rather than manually modifying JSON files.
+  - Created function logic to generate `tokenColors` and `colors`.
+- ESLint to lint the TS files. Currently default settings (`recommended`).
+- Added `direnv` and `nix` files for development.
+- Alphabetical sort of all entries (and consequently means every scope in one tokenColor is sorted by category)
+
+### Updates
+
+- Updated [README.md](./README.md)
+- `DIFFERENCES.md` keeps track of known differences with current devtools alongside any reasoning/ways forward
+- Added `editor.rangeHighlightBackground`
+- Added support for `.nix` files
+- All comments are now the colours of `comment`.
+- Added support for `dockerfile` via the extension `jeff-hykin.better-dockerfile-syntax`.
+- Added limited support for `F#`. Tested with the extension `Ionide for F#: ionide.ionide-fsharp`.
+- Added support for Rust (via `rust-lang.rust-analyzer`) keywords and namespaces.
+- Improved support for other various inbuilt languages. Everything else is mostly the same.
+- Improved theming for the status bar: debuggging, status items etc.
+- No white text on light theme.
+- Buttons and badges match active theme.
+- Updated screenshots.
 
 ## 1.2.0
 
 ### Colour Theming
+
 - `activityBar.activeBorder` is now blue as it is in DevTools
 
 ### Syntax Highlighting
+
 - PHP
   - Changed type highlighting in PHP to be yellow #43 (light orange in light theme)
   - Embedded SQL follows the changes made in "SQL"
@@ -19,8 +49,8 @@ Official Releases will be published when there are new versions. To see (beta ch
   - Dates are now green
 - SQL:
   - Params/variables are blue
-  - Bracketed text is now  blue-grey
-  - DML keywords are light orange 
+  - Bracketed text is now blue-grey
+  - DML keywords are light orange
   - Other keywords are pink except aliases - they remain green.
 - Clojure
   - Meta symbols are orange
@@ -28,21 +58,25 @@ Official Releases will be published when there are new versions. To see (beta ch
 - Dart
   - Classes are now yellow (light orange in light theme)
   - Regular variables are default text colour for this theme. They do not hae have a TextMate scope and thus I cannot make them blue as desired
+
 ### Other
+
 - Screenshots added: PHP, SQL, C#, YAML, Dart
 - README updated
 
 The next beta (currently) will focus on cleaning up the repository, highlighting more languages and focusing on the minimap/decorations. This version is NOT on the marketplace.
+
 ## 1.1.9
+
 - Made selection highlight in dark theme have better accessibility contrast
 - Changed some other things such as bracket highlighting slightly
 - Cursor now has a yellow tint
 
 ## 1.1.8
+
 - Made `storage.type.annotations` clearer to see in Light
 - Made user-defined generic functions highlighted on languages such as Python
 - Some misc back-end stuff
-
 
 ## 1.1.5
 
@@ -65,6 +99,7 @@ The next beta (currently) will focus on cleaning up the repository, highlighting
 Here lands a biggish update, including improvements to the theme to catch up to the Firefox DevTools, and improvements to repo structure.
 
 - Features:
+
   - Support for basically all the other default languages
   - Clean(er) repository
     - Removal of test files
@@ -83,10 +118,10 @@ Here lands a biggish update, including improvements to the theme to catch up to 
   - CONSISTENCY Tab border changed, Light
   - CONSISTENCY Selection now transparent to match DevTools and for better visibility
 
-
 ## 1.0.4
 
 - Improved Language Support for:
+
   - Perl/Perl6
   - PHP
   - Python
@@ -98,7 +133,6 @@ Here lands a biggish update, including improvements to the theme to catch up to 
 - Select in Dropdowns now grey again! (Quantum Light)
 - Theme title is not the same as name of extension [#25](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/25)
 - Yellow not visible in Quantum Light [#22](https://github.com/beastdestroyer/vscode-firefox-quantum-themes/issues/22)
-
 
 ## 1.0.2
 
